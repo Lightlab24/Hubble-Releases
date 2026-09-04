@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.0.3",
-  "publishedAt": "2026-09-04T21:00:12.000Z",
+  "version": "1.0.4",
+  "publishedAt": "2026-09-04T23:23:34.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.0.3/Hubble-1.0.3.pkg",
-    "sha256": "2280d6ed51416973177f230abba153b4045b7b2f6203567674ee9f40c9d62860",
-    "size": 174767405
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.0.4/Hubble-1.0.4.pkg",
+    "sha256": "39a4efd93aae7ffbebe6bc407d12cce7bf09d1a2aa206e5516dfd72a55e89390",
+    "size": 174769901
   },
-  "releaseNotes": "Hubble 1.0.3\n\nHubble 1.0.3: improve Companion setup and advanced controls\n\nAdd a bundled local Companion setup page with direct installation steps, first-page links, and backup-gated bulk appearance feedback installation. Detect same-version Companion module drift so reinstalling refreshes changed bundled content.\n\nHarden advanced controls by preserving connection selections, validating edit sources, aligning execution timeouts, restoring legacy feedback behavior, adding action-owned feedback colors, and exposing rotary wrap controls.\n\nSimplify the Companion guide to a plain black documentation layout and ship the synchronized 1.0.3 application and protocol versions."
+  "releaseNotes": "Hubble 1.0.4\n\nHubble 1.0.4: show update version details\n\nShow the installed and latest available versions when a manual update check finds no newer build. Include installed and available versions in the update prompt so users can tell exactly what Sparkle will install.\n\nSynchronize Hubble, HubDash, service, and protocol versions at 1.0.4 for the public signed update test."
 }
