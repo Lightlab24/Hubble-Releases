@@ -1,0 +1,13 @@
+{
+  "formatVersion": 1,
+  "product": "hubble",
+  "channel": "stable",
+  "version": "1.0.2",
+  "publishedAt": "2026-09-04T13:57:54.000Z",
+  "archive": {
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.0.2/Hubble-1.0.2.pkg",
+    "sha256": "6f55bae8a008bdbc9785ea7b638472b7449dc16d5c65b5143804e41676320a30",
+    "size": 174741303
+  },
+  "releaseNotes": "Hubble 1.0.2\n\nHubble 1.0.2: automatic updates are ready\n\nHubble checks the public signed update feed every 30 minutes and offers Check for Updates. HubDash shows an Update control and prompts once per Hubble launch when a newer version is available. Accepted updates install notarized Hubble and HubDash together.\\n\\nThis release also adopts the stable Node-API SQLite runtime to prevent worker-shutdown crashes."
+}
