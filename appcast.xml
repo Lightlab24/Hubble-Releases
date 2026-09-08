@@ -2,24 +2,27 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.0.4</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.0.5</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 1.0.4</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.0.4</link>
-      <pubDate>Fri, 04 Sep 2026 23:23:34 GMT</pubDate>
-      <description>Hubble 1.0.4
+      <title>Hubble 1.0.5</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.0.5</link>
+      <pubDate>Tue, 08 Sep 2026 14:31:41 GMT</pubDate>
+      <description>Hubble 1.0.5
 
-Hubble 1.0.4: show update version details
+Hubble 1.0.5: faster editing and more reliable variables
 
-Show the installed and latest available versions when a manual update check finds no newer build. Include installed and available versions in the update prompt so users can tell exactly what Sparkle will install.
-
-Synchronize Hubble, HubDash, service, and protocol versions at 1.0.4 for the public signed update test.</description>
-      <sparkle:version>1.0.4</sparkle:version>
-      <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+- Make OGP Source-number changes appear sooner and speed up simple formula references.
+- Improve variable types and formulas, including text that resembles numbers, Boolean values, or errors.
+- Improve variable editing, validation, paste, multiline values, Boolean formulas, and Undo/Redo.
+- Keep background workbook updates from stealing focus or losing typed input.
+- Reduce repeated workbook, logging, and button-appearance work.
+- Fix action identity checks for repeated execution requests.</description>
+      <sparkle:version>1.0.5</sparkle:version>
+      <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.0.4/Hubble-1.0.4.pkg" sparkle:edSignature="q2qrz1FatxAA9GtCyLyCHs8wp2uY7+7pWjTbPBbd9R1r01qlSfcI4BoWCkLVMCLcvKa+5GvjkKOBQirfEpJACw==" length="174769901" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.0.5/Hubble-1.0.5.pkg" sparkle:edSignature="duHa6bbHGRD17uQvZ2sPsMfowlI/2UZu84guuvv0KthtlAxFTwXimCCUkrEOdHQEO7QK4H4VFPkfocI7j6FpCg==" length="174779666" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

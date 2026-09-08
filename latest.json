@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.0.4",
-  "publishedAt": "2026-09-04T23:23:34.000Z",
+  "version": "1.0.5",
+  "publishedAt": "2026-09-08T14:31:41.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.0.4/Hubble-1.0.4.pkg",
-    "sha256": "39a4efd93aae7ffbebe6bc407d12cce7bf09d1a2aa206e5516dfd72a55e89390",
-    "size": 174769901
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.0.5/Hubble-1.0.5.pkg",
+    "sha256": "8f7e769d59779a010848cb560bdbdaace1761076950b71c8f8f6d2f0c9403eca",
+    "size": 174779666
   },
-  "releaseNotes": "Hubble 1.0.4\n\nHubble 1.0.4: show update version details\n\nShow the installed and latest available versions when a manual update check finds no newer build. Include installed and available versions in the update prompt so users can tell exactly what Sparkle will install.\n\nSynchronize Hubble, HubDash, service, and protocol versions at 1.0.4 for the public signed update test."
+  "releaseNotes": "Hubble 1.0.5\n\nHubble 1.0.5: faster editing and more reliable variables\n\n- Make OGP Source-number changes appear sooner and speed up simple formula references.\n- Improve variable types and formulas, including text that resembles numbers, Boolean values, or errors.\n- Improve variable editing, validation, paste, multiline values, Boolean formulas, and Undo/Redo.\n- Keep background workbook updates from stealing focus or losing typed input.\n- Reduce repeated workbook, logging, and button-appearance work.\n- Fix action identity checks for repeated execution requests."
 }
