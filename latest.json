@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.0.5",
-  "publishedAt": "2026-09-08T14:31:41.000Z",
+  "version": "1.0.6",
+  "publishedAt": "2026-09-09T23:50:25.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.0.5/Hubble-1.0.5.pkg",
-    "sha256": "8f7e769d59779a010848cb560bdbdaace1761076950b71c8f8f6d2f0c9403eca",
-    "size": 174779666
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.0.6/Hubble-1.0.6.pkg",
+    "sha256": "dcb18e46ccf237641ddff8afeebd08a4c82b67b8a756743e3c3c967911fa605b",
+    "size": 174956925
   },
-  "releaseNotes": "Hubble 1.0.5\n\nHubble 1.0.5: faster editing and more reliable variables\n\n- Make OGP Source-number changes appear sooner and speed up simple formula references.\n- Improve variable types and formulas, including text that resembles numbers, Boolean values, or errors.\n- Improve variable editing, validation, paste, multiline values, Boolean formulas, and Undo/Redo.\n- Keep background workbook updates from stealing focus or losing typed input.\n- Reduce repeated workbook, logging, and button-appearance work.\n- Fix action identity checks for repeated execution requests."
+  "releaseNotes": "Hubble 1.0.6\n\nHubble 1.0.6: automatic Companion setup and configuration compatibility\n\n- Set up the Hubble module from Service Settings with Install in Companion: enable Developer Modules, configure the module folder, and add or reuse the matching Hubble connection on supported Companion 4.3+ and 5.x versions.\n- Preserve variables, field layouts, and clipboard data when transferring configurations, and improve loading and resending configurations from earlier releases.\n- Preserve legacy LiveGrade slot behavior when importing older configurations.\n- Hide Ross SW-P-08 from new connection setup and reject new additions while keeping existing configurations usable."
 }

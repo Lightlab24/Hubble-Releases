@@ -2,27 +2,25 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.0.5</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.0.6</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 1.0.5</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.0.5</link>
-      <pubDate>Tue, 08 Sep 2026 14:31:41 GMT</pubDate>
-      <description>Hubble 1.0.5
+      <title>Hubble 1.0.6</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.0.6</link>
+      <pubDate>Wed, 09 Sep 2026 23:50:25 GMT</pubDate>
+      <description>Hubble 1.0.6
 
-Hubble 1.0.5: faster editing and more reliable variables
+Hubble 1.0.6: automatic Companion setup and configuration compatibility
 
-- Make OGP Source-number changes appear sooner and speed up simple formula references.
-- Improve variable types and formulas, including text that resembles numbers, Boolean values, or errors.
-- Improve variable editing, validation, paste, multiline values, Boolean formulas, and Undo/Redo.
-- Keep background workbook updates from stealing focus or losing typed input.
-- Reduce repeated workbook, logging, and button-appearance work.
-- Fix action identity checks for repeated execution requests.</description>
-      <sparkle:version>1.0.5</sparkle:version>
-      <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+- Set up the Hubble module from Service Settings with Install in Companion: enable Developer Modules, configure the module folder, and add or reuse the matching Hubble connection on supported Companion 4.3+ and 5.x versions.
+- Preserve variables, field layouts, and clipboard data when transferring configurations, and improve loading and resending configurations from earlier releases.
+- Preserve legacy LiveGrade slot behavior when importing older configurations.
+- Hide Ross SW-P-08 from new connection setup and reject new additions while keeping existing configurations usable.</description>
+      <sparkle:version>1.0.6</sparkle:version>
+      <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.0.5/Hubble-1.0.5.pkg" sparkle:edSignature="duHa6bbHGRD17uQvZ2sPsMfowlI/2UZu84guuvv0KthtlAxFTwXimCCUkrEOdHQEO7QK4H4VFPkfocI7j6FpCg==" length="174779666" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.0.6/Hubble-1.0.6.pkg" sparkle:edSignature="lOaHRL9SZAQjtREMkCKhJGubcTeUcpi6iUTFY5IveFfBJRzFgdNirqDCQweUFQ2tZ48Nb10kkNBmc4qJdAPHBg==" length="174956925" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
