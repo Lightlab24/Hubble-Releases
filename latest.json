@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.0.6",
-  "publishedAt": "2026-09-09T23:50:25.000Z",
+  "version": "1.0.7",
+  "publishedAt": "2026-09-10T17:15:41.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.0.6/Hubble-1.0.6.pkg",
-    "sha256": "dcb18e46ccf237641ddff8afeebd08a4c82b67b8a756743e3c3c967911fa605b",
-    "size": 174956925
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.0.7/Hubble-1.0.7.pkg",
+    "sha256": "d699d2d83be6e8ca4abdc411a008b0284d907d8a2bb075a520db7cedf3698b36",
+    "size": 175142440
   },
-  "releaseNotes": "Hubble 1.0.6\n\nHubble 1.0.6: automatic Companion setup and configuration compatibility\n\n- Set up the Hubble module from Service Settings with Install in Companion: enable Developer Modules, configure the module folder, and add or reuse the matching Hubble connection on supported Companion 4.3+ and 5.x versions.\n- Preserve variables, field layouts, and clipboard data when transferring configurations, and improve loading and resending configurations from earlier releases.\n- Preserve legacy LiveGrade slot behavior when importing older configurations.\n- Hide Ross SW-P-08 from new connection setup and reject new additions while keeping existing configurations usable."
+  "releaseNotes": "Hubble 1.0.7\n\nHubble 1.0.7: Companion feedback reminders and easier button editing\n\n- HubDash and the web interface now show a centered popup when configured Companion controls are missing Hubble appearance feedback. Install the missing feedbacks or dismiss reminders until the next Hubble launch.\n- Install missing feedbacks directly from Hubble Service Settings, with progress and verified results. Existing Companion actions, styles, layout, and feedbacks are preserved.\n- Add multiple buttons at once with the new quantity dialog. Right-click a saved button to insert above, below, or at the bottom, or delete selected buttons. Insertion and deletion retain undo support and preserve whole interaction groups.\n- Verified feedback installation and duplicate prevention with Companion 4.3.4 and 5.0.5."
 }
