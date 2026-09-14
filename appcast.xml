@@ -2,25 +2,27 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.0.7</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.1</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 1.0.7</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.0.7</link>
-      <pubDate>Thu, 10 Sep 2026 17:15:41 GMT</pubDate>
-      <description>Hubble 1.0.7
+      <title>Hubble 1.1.1</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.1</link>
+      <pubDate>Mon, 14 Sep 2026 06:17:50 GMT</pubDate>
+      <description>Hubble 1.1.1
 
-Hubble 1.0.7: Companion feedback reminders and easier button editing
+Hubble 1.1.1: AJA KUMO routing and a clearer setup experience
 
-- HubDash and the web interface now show a centered popup when configured Companion controls are missing Hubble appearance feedback. Install the missing feedbacks or dismiss reminders until the next Hubble launch.
-- Install missing feedbacks directly from Hubble Service Settings, with progress and verified results. Existing Companion actions, styles, layout, and feedbacks are preserved.
-- Add multiple buttons at once with the new quantity dialog. Right-click a saved button to insert above, below, or at the bottom, or delete selected buttons. Insertion and deletion retain undo support and preserve whole interaction groups.
-- Verified feedback installation and duplicate prevention with Companion 4.3.4 and 5.0.5.</description>
-      <sparkle:version>1.0.7</sparkle:version>
-      <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+- Add native AJA KUMO connections with source and destination names, routing groups, source switching, automatic or manual Take, direct routes, salvo recalls, and live route feedback. KUMO controls use the familiar Ross OGP workflow without levels.
+- Update CyanView Studio feed selection to use the visible feed number or camera ID supported by the current API. Existing legacy Feed ID actions remain identified separately.
+- Replace the Companion setup page with the searchable Hubble Setup Guide, introducing buttons before connections and including annotated screenshots. The guide opens automatically only on first install and remains available from Help.
+- Keep the add-buttons menu open after right-click or Control-click release, including clicks on row headers.
+- Improve spreadsheet formula-reference handling when filling, inserting, deleting, and moving button rows.
+- Give the release compiler enough memory to complete packaging reliably.</description>
+      <sparkle:version>1.1.1</sparkle:version>
+      <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.0.7/Hubble-1.0.7.pkg" sparkle:edSignature="2OXwk5nBmUt7I3ddy8rWHk5vUFKdXRcGWFuuMepjZEeGMPH6nQMaob6m5/Ah190fBsnBznGT7lT8nzZLb7VNDA==" length="175142440" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.1/Hubble-1.1.1.pkg" sparkle:edSignature="2ZYgsVY7k67GSTmfRo/AOzllTM0N3i8xWGx9MmKruS7Fn3scPRNTxF7G/TkQ/HAMHth0pQ0VwwPdRDqulvB3Dw==" length="176729583" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
