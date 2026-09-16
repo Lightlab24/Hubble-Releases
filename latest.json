@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.1.1",
-  "publishedAt": "2026-09-14T06:17:50.000Z",
+  "version": "1.1.2",
+  "publishedAt": "2026-09-16T04:37:55.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.1/Hubble-1.1.1.pkg",
-    "sha256": "4ddf28aaa24057ef5695443d99c622c8163be47af727b3db7197a3f007e5111a",
-    "size": 176729583
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.2/Hubble-1.1.2.pkg",
+    "sha256": "9fb6722eeaffc227704da8d37330c6fb8eecda1d5c66cee71539b42184ccd554",
+    "size": 176732718
   },
-  "releaseNotes": "Hubble 1.1.1\n\nHubble 1.1.1: AJA KUMO routing and a clearer setup experience\n\n- Add native AJA KUMO connections with source and destination names, routing groups, source switching, automatic or manual Take, direct routes, salvo recalls, and live route feedback. KUMO controls use the familiar Ross OGP workflow without levels.\n- Update CyanView Studio feed selection to use the visible feed number or camera ID supported by the current API. Existing legacy Feed ID actions remain identified separately.\n- Replace the Companion setup page with the searchable Hubble Setup Guide, introducing buttons before connections and including annotated screenshots. The guide opens automatically only on first install and remains available from Help.\n- Keep the add-buttons menu open after right-click or Control-click release, including clicks on row headers.\n- Improve spreadsheet formula-reference handling when filling, inserting, deleting, and moving button rows.\n- Give the release compiler enough memory to complete packaging reliably."
+  "releaseNotes": "Hubble 1.1.2\n\nHubble 1.1.2: Fix Companion plugin installation\n\nFix automatic setup when Companion's Developer Modules Path starts with ~/,\nincluding cases where the Hubble module is already installed but does not appear\nin Companion. Hubble now saves the full folder path, backs up the original\nsettings, and preserves custom folders and unrelated Companion settings.\n\nAfter updating, run Install in Companion again and approve the Companion restart\nwhen prompted. Setup installs the module and creates or verifies the Hubble\nconnection."
 }

@@ -2,27 +2,29 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.1</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.2</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 1.1.1</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.1</link>
-      <pubDate>Mon, 14 Sep 2026 06:17:50 GMT</pubDate>
-      <description>Hubble 1.1.1
+      <title>Hubble 1.1.2</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.2</link>
+      <pubDate>Wed, 16 Sep 2026 04:37:55 GMT</pubDate>
+      <description>Hubble 1.1.2
 
-Hubble 1.1.1: AJA KUMO routing and a clearer setup experience
+Hubble 1.1.2: Fix Companion plugin installation
 
-- Add native AJA KUMO connections with source and destination names, routing groups, source switching, automatic or manual Take, direct routes, salvo recalls, and live route feedback. KUMO controls use the familiar Ross OGP workflow without levels.
-- Update CyanView Studio feed selection to use the visible feed number or camera ID supported by the current API. Existing legacy Feed ID actions remain identified separately.
-- Replace the Companion setup page with the searchable Hubble Setup Guide, introducing buttons before connections and including annotated screenshots. The guide opens automatically only on first install and remains available from Help.
-- Keep the add-buttons menu open after right-click or Control-click release, including clicks on row headers.
-- Improve spreadsheet formula-reference handling when filling, inserting, deleting, and moving button rows.
-- Give the release compiler enough memory to complete packaging reliably.</description>
-      <sparkle:version>1.1.1</sparkle:version>
-      <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+Fix automatic setup when Companion&apos;s Developer Modules Path starts with ~/,
+including cases where the Hubble module is already installed but does not appear
+in Companion. Hubble now saves the full folder path, backs up the original
+settings, and preserves custom folders and unrelated Companion settings.
+
+After updating, run Install in Companion again and approve the Companion restart
+when prompted. Setup installs the module and creates or verifies the Hubble
+connection.</description>
+      <sparkle:version>1.1.2</sparkle:version>
+      <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.1/Hubble-1.1.1.pkg" sparkle:edSignature="2ZYgsVY7k67GSTmfRo/AOzllTM0N3i8xWGx9MmKruS7Fn3scPRNTxF7G/TkQ/HAMHth0pQ0VwwPdRDqulvB3Dw==" length="176729583" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.2/Hubble-1.1.2.pkg" sparkle:edSignature="qPnryg4ViHAYuh9iPWnQt2/ilnR5e7/PNp1aJ7BUdDvGC650+R9CqtVY1mcZpz9YhoOZGAQyag2umg0aDwuvAw==" length="176732718" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
