@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.1.2",
-  "publishedAt": "2026-09-16T04:37:55.000Z",
+  "version": "1.1.4",
+  "publishedAt": "2026-09-17T15:33:28.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.2/Hubble-1.1.2.pkg",
-    "sha256": "9fb6722eeaffc227704da8d37330c6fb8eecda1d5c66cee71539b42184ccd554",
-    "size": 176732718
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.4/Hubble-1.1.4.pkg",
+    "sha256": "3d026fb66b8a6a1d8bb89da99f830919c07cb9acd6b613f6d7f93422e889e630",
+    "size": 176951452
   },
-  "releaseNotes": "Hubble 1.1.2\n\nHubble 1.1.2: Fix Companion plugin installation\n\nFix automatic setup when Companion's Developer Modules Path starts with ~/,\nincluding cases where the Hubble module is already installed but does not appear\nin Companion. Hubble now saves the full folder path, backs up the original\nsettings, and preserves custom folders and unrelated Companion settings.\n\nAfter updating, run Install in Companion again and approve the Companion restart\nwhen prompted. Setup installs the module and creates or verifies the Hubble\nconnection."
+  "releaseNotes": "Hubble 1.1.4\n\nHubble 1.1.4: Companion presets and a redesigned updater\n\n- Start with Companion Default Presets for Button IDs 1-60, even before buttons exist in Hubble. Workspace Presets follow saved workspaces and update as Button IDs and appearances change.\n- Include live appearance feedback and the configured Hubble Press, Rotate Left, and Rotate Right actions in presets. Add feedback installation to Module Connections and improve manual Companion setup instructions.\n- Make physical action changes update the selected row, correct action-column dropdowns, preserve spreadsheet scroll position, and improve collapsed column defaults and the Add Action button.\n- Remove mock action columns from new Example workspaces.\n- Redesign Hubble Updates with clear installed and latest versions, release notes, download progress, and installation steps. Offer the two previous releases with verified downloads and app/workspace backups before installation."
 }

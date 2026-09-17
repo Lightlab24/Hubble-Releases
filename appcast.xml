@@ -2,29 +2,26 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.2</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.4</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 1.1.2</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.2</link>
-      <pubDate>Wed, 16 Sep 2026 04:37:55 GMT</pubDate>
-      <description>Hubble 1.1.2
+      <title>Hubble 1.1.4</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.4</link>
+      <pubDate>Thu, 17 Sep 2026 15:33:28 GMT</pubDate>
+      <description>Hubble 1.1.4
 
-Hubble 1.1.2: Fix Companion plugin installation
+Hubble 1.1.4: Companion presets and a redesigned updater
 
-Fix automatic setup when Companion&apos;s Developer Modules Path starts with ~/,
-including cases where the Hubble module is already installed but does not appear
-in Companion. Hubble now saves the full folder path, backs up the original
-settings, and preserves custom folders and unrelated Companion settings.
-
-After updating, run Install in Companion again and approve the Companion restart
-when prompted. Setup installs the module and creates or verifies the Hubble
-connection.</description>
-      <sparkle:version>1.1.2</sparkle:version>
-      <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+- Start with Companion Default Presets for Button IDs 1-60, even before buttons exist in Hubble. Workspace Presets follow saved workspaces and update as Button IDs and appearances change.
+- Include live appearance feedback and the configured Hubble Press, Rotate Left, and Rotate Right actions in presets. Add feedback installation to Module Connections and improve manual Companion setup instructions.
+- Make physical action changes update the selected row, correct action-column dropdowns, preserve spreadsheet scroll position, and improve collapsed column defaults and the Add Action button.
+- Remove mock action columns from new Example workspaces.
+- Redesign Hubble Updates with clear installed and latest versions, release notes, download progress, and installation steps. Offer the two previous releases with verified downloads and app/workspace backups before installation.</description>
+      <sparkle:version>1.1.4</sparkle:version>
+      <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.2/Hubble-1.1.2.pkg" sparkle:edSignature="qPnryg4ViHAYuh9iPWnQt2/ilnR5e7/PNp1aJ7BUdDvGC650+R9CqtVY1mcZpz9YhoOZGAQyag2umg0aDwuvAw==" length="176732718" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.4/Hubble-1.1.4.pkg" sparkle:edSignature="vDsd/L9AGekoM33/p911C8ZMM86wAjxpyuPLZjJjLibmqOKkADCEfPqVNDBBg5/yhvV8aXx5ZeSUMNoGPWvKCA==" length="176951452" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
