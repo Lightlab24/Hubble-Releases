@@ -2,26 +2,25 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.4</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.5</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 1.1.4</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.4</link>
-      <pubDate>Thu, 17 Sep 2026 15:33:28 GMT</pubDate>
-      <description>Hubble 1.1.4
+      <title>Hubble 1.1.5</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.5</link>
+      <pubDate>Fri, 18 Sep 2026 01:49:40 GMT</pubDate>
+      <description>Hubble 1.1.5
 
-Hubble 1.1.4: Companion presets and a redesigned updater
+Hubble 1.1.5: Keep the spreadsheet responsive during saves
 
-- Start with Companion Default Presets for Button IDs 1-60, even before buttons exist in Hubble. Workspace Presets follow saved workspaces and update as Button IDs and appearances change.
-- Include live appearance feedback and the configured Hubble Press, Rotate Left, and Rotate Right actions in presets. Add feedback installation to Module Connections and improve manual Companion setup instructions.
-- Make physical action changes update the selected row, correct action-column dropdowns, preserve spreadsheet scroll position, and improve collapsed column defaults and the Add Action button.
-- Remove mock action columns from new Example workspaces.
-- Redesign Hubble Updates with clear installed and latest versions, release notes, download progress, and installation steps. Offer the two previous releases with verified downloads and app/workspace backups before installation.</description>
-      <sparkle:version>1.1.4</sparkle:version>
-      <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
+- Reverse action expansion immediately, even while earlier changes are still saving.
+- Keep typing and column resizing available while expansion changes save in the background, and retain edits made during those saves.
+- Keep the latest expand or collapse choice visible as queued saves finish.
+- Preserve action buttons, resize handles, and keyboard focus through background spreadsheet refreshes.</description>
+      <sparkle:version>1.1.5</sparkle:version>
+      <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.4/Hubble-1.1.4.pkg" sparkle:edSignature="vDsd/L9AGekoM33/p911C8ZMM86wAjxpyuPLZjJjLibmqOKkADCEfPqVNDBBg5/yhvV8aXx5ZeSUMNoGPWvKCA==" length="176951452" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.5/Hubble-1.1.5.pkg" sparkle:edSignature="04yDKyqqKxwkBAbjLnwkfQmtTV3vEq1tmvGpCnv9be4JFtI6pmPAcWGQcD/F5bOuzHoHdPe7mazhO0L8gs2tBQ==" length="176950618" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
