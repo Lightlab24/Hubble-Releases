@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.1.5",
-  "publishedAt": "2026-09-18T01:49:40.000Z",
+  "version": "1.1.6",
+  "publishedAt": "2026-09-21T01:07:04.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.5/Hubble-1.1.5.pkg",
-    "sha256": "b2acd1c2099befd54ebe38b2c40934bd6e2cb47d49e81b4f802569469d3ec0b4",
-    "size": 176950618
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.6/Hubble-1.1.6.pkg",
+    "sha256": "0b2bcc52aa6cc16591ee9379923c5ca7c786746cb37f0e856ede80c3947f9558",
+    "size": 176962796
   },
-  "releaseNotes": "Hubble 1.1.5\n\nHubble 1.1.5: Keep the spreadsheet responsive during saves\n\n- Reverse action expansion immediately, even while earlier changes are still saving.\n- Keep typing and column resizing available while expansion changes save in the background, and retain edits made during those saves.\n- Keep the latest expand or collapse choice visible as queued saves finish.\n- Preserve action buttons, resize handles, and keyboard focus through background spreadsheet refreshes."
+  "releaseNotes": "Hubble 1.1.6\n\nBug fixes."
 }

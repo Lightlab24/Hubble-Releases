@@ -2,25 +2,20 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.5</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.6</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 1.1.5</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.5</link>
-      <pubDate>Fri, 18 Sep 2026 01:49:40 GMT</pubDate>
-      <description>Hubble 1.1.5
+      <title>Hubble 1.1.6</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.6</link>
+      <pubDate>Mon, 21 Sep 2026 01:07:04 GMT</pubDate>
+      <description>Hubble 1.1.6
 
-Hubble 1.1.5: Keep the spreadsheet responsive during saves
-
-- Reverse action expansion immediately, even while earlier changes are still saving.
-- Keep typing and column resizing available while expansion changes save in the background, and retain edits made during those saves.
-- Keep the latest expand or collapse choice visible as queued saves finish.
-- Preserve action buttons, resize handles, and keyboard focus through background spreadsheet refreshes.</description>
-      <sparkle:version>1.1.5</sparkle:version>
-      <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+Bug fixes.</description>
+      <sparkle:version>1.1.6</sparkle:version>
+      <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.5/Hubble-1.1.5.pkg" sparkle:edSignature="04yDKyqqKxwkBAbjLnwkfQmtTV3vEq1tmvGpCnv9be4JFtI6pmPAcWGQcD/F5bOuzHoHdPe7mazhO0L8gs2tBQ==" length="176950618" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.6/Hubble-1.1.6.pkg" sparkle:edSignature="qUoNcRRZSj8JfMozajEFLYrnws2JCHRlps3NZ4j075yiphqt7TKVdmK37vMTuS3tDZziLNSXaj0CIRo3W4i6Aw==" length="176962796" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
