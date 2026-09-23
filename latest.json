@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.1.6",
-  "publishedAt": "2026-09-21T01:07:04.000Z",
+  "version": "1.1.7",
+  "publishedAt": "2026-09-23T02:29:03.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.6/Hubble-1.1.6.pkg",
-    "sha256": "0b2bcc52aa6cc16591ee9379923c5ca7c786746cb37f0e856ede80c3947f9558",
-    "size": 176962796
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.7/Hubble-1.1.7.pkg",
+    "sha256": "11aae049214ee3f3a6b8aaf7b3544e08042e6ddf926612ff7d66f8352567ea5b",
+    "size": 177062329
   },
-  "releaseNotes": "Hubble 1.1.6\n\nBug fixes."
+  "releaseNotes": "Hubble 1.1.7\n\nHubble 1.1.7: TSL tally and automatic router switching\n\nAdd TSL 3.1 and 5.0 receivers over UDP and TCP, with live discovery and per-camera tally mappings.\n\nAdd TALLY Switch (BETA) to follow program tally on router outputs, hold routes through dissolves, and save following controls with each workspace.\n\nAdd Button Tally controls, configurable feedback colors, and animated Companion glow. Includes Companion module 0.3.3.\n\nRefine spreadsheet selection and live-test feedback, and improve local DIT Browse connection discovery."
 }

@@ -2,20 +2,28 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.6</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.7</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 1.1.6</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.6</link>
-      <pubDate>Mon, 21 Sep 2026 01:07:04 GMT</pubDate>
-      <description>Hubble 1.1.6
+      <title>Hubble 1.1.7</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.7</link>
+      <pubDate>Wed, 23 Sep 2026 02:29:03 GMT</pubDate>
+      <description>Hubble 1.1.7
 
-Bug fixes.</description>
-      <sparkle:version>1.1.6</sparkle:version>
-      <sparkle:shortVersionString>1.1.6</sparkle:shortVersionString>
+Hubble 1.1.7: TSL tally and automatic router switching
+
+Add TSL 3.1 and 5.0 receivers over UDP and TCP, with live discovery and per-camera tally mappings.
+
+Add TALLY Switch (BETA) to follow program tally on router outputs, hold routes through dissolves, and save following controls with each workspace.
+
+Add Button Tally controls, configurable feedback colors, and animated Companion glow. Includes Companion module 0.3.3.
+
+Refine spreadsheet selection and live-test feedback, and improve local DIT Browse connection discovery.</description>
+      <sparkle:version>1.1.7</sparkle:version>
+      <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.6/Hubble-1.1.6.pkg" sparkle:edSignature="qUoNcRRZSj8JfMozajEFLYrnws2JCHRlps3NZ4j075yiphqt7TKVdmK37vMTuS3tDZziLNSXaj0CIRo3W4i6Aw==" length="176962796" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.7/Hubble-1.1.7.pkg" sparkle:edSignature="0eXph1eyYGyqGKU0T/JMYDJ9O5mO+TejJ/g4jdTBSRS5ejL2XpTsj/xddHuE/XqHth3Gw5dDU8LjHNAl8El1AQ==" length="177062329" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
