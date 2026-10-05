@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.1.8",
-  "publishedAt": "2026-10-05T07:36:53.000Z",
+  "version": "1.1.9",
+  "publishedAt": "2026-10-05T13:11:30.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.8/Hubble-1.1.8.pkg",
-    "sha256": "38e93684b2f3970eb73c2c75b3a1774b2673908a763d156e575727033143c372",
-    "size": 177597654
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.9/Hubble-1.1.9.pkg",
+    "sha256": "e40ebf763a1ca63c5319cf838cf6a388cf07ec8d01b90d4f6b2de4c5fb2d4418",
+    "size": 177606839
   },
-  "releaseNotes": "Hubble 1.1.8\n\nHubble 1.1.8: Stream Deck layouts and reliable workspace exports\n\nAdd Companion Layout with device previews for Stream Deck XL, MK.2, Mini, Neo, +, + XL, and Studio. Edit key and dial assignments, fill empty slots, customize numbering, and save reusable layout presets while preserving existing navigation and other controls.\n\nInclude Companion module 0.3.4 with automatic position-based button numbering and saved page numbering settings.\n\nWait for pending workspace and connection edits before exporting. Preserve every saved module connection, including unused connections, when importing complete configurations. Fix skipped queued workspace operations and ambiguous import mappings."
+  "releaseNotes": "Hubble 1.1.9\n\nHubble 1.1.9: Easier startup and login controls\n\n- Open local Hubble directly from HubDash when its service is unavailable.\n- Reconnect automatically after slow or interrupted startup.\n- See whether Hubble opens at login and change it with a checkbox.\n- Preserve existing login settings and make login launch optional for new installations."
 }
