@@ -2,28 +2,26 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.7</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.8</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 1.1.7</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.7</link>
-      <pubDate>Wed, 23 Sep 2026 02:29:03 GMT</pubDate>
-      <description>Hubble 1.1.7
+      <title>Hubble 1.1.8</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.8</link>
+      <pubDate>Mon, 05 Oct 2026 07:36:53 GMT</pubDate>
+      <description>Hubble 1.1.8
 
-Hubble 1.1.7: TSL tally and automatic router switching
+Hubble 1.1.8: Stream Deck layouts and reliable workspace exports
 
-Add TSL 3.1 and 5.0 receivers over UDP and TCP, with live discovery and per-camera tally mappings.
+Add Companion Layout with device previews for Stream Deck XL, MK.2, Mini, Neo, +, + XL, and Studio. Edit key and dial assignments, fill empty slots, customize numbering, and save reusable layout presets while preserving existing navigation and other controls.
 
-Add TALLY Switch (BETA) to follow program tally on router outputs, hold routes through dissolves, and save following controls with each workspace.
+Include Companion module 0.3.4 with automatic position-based button numbering and saved page numbering settings.
 
-Add Button Tally controls, configurable feedback colors, and animated Companion glow. Includes Companion module 0.3.3.
-
-Refine spreadsheet selection and live-test feedback, and improve local DIT Browse connection discovery.</description>
-      <sparkle:version>1.1.7</sparkle:version>
-      <sparkle:shortVersionString>1.1.7</sparkle:shortVersionString>
+Wait for pending workspace and connection edits before exporting. Preserve every saved module connection, including unused connections, when importing complete configurations. Fix skipped queued workspace operations and ambiguous import mappings.</description>
+      <sparkle:version>1.1.8</sparkle:version>
+      <sparkle:shortVersionString>1.1.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.7/Hubble-1.1.7.pkg" sparkle:edSignature="0eXph1eyYGyqGKU0T/JMYDJ9O5mO+TejJ/g4jdTBSRS5ejL2XpTsj/xddHuE/XqHth3Gw5dDU8LjHNAl8El1AQ==" length="177062329" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.8/Hubble-1.1.8.pkg" sparkle:edSignature="eNNfHuWYxqZ9tgKIbyJg6pthzV+0ZGho9IABbswg7v55NEde+qK1+i2Jbb/45w5V48jBz9t3gsShXeIoiAzlCA==" length="177597654" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

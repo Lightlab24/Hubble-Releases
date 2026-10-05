@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.1.7",
-  "publishedAt": "2026-09-23T02:29:03.000Z",
+  "version": "1.1.8",
+  "publishedAt": "2026-10-05T07:36:53.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.7/Hubble-1.1.7.pkg",
-    "sha256": "11aae049214ee3f3a6b8aaf7b3544e08042e6ddf926612ff7d66f8352567ea5b",
-    "size": 177062329
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.8/Hubble-1.1.8.pkg",
+    "sha256": "38e93684b2f3970eb73c2c75b3a1774b2673908a763d156e575727033143c372",
+    "size": 177597654
   },
-  "releaseNotes": "Hubble 1.1.7\n\nHubble 1.1.7: TSL tally and automatic router switching\n\nAdd TSL 3.1 and 5.0 receivers over UDP and TCP, with live discovery and per-camera tally mappings.\n\nAdd TALLY Switch (BETA) to follow program tally on router outputs, hold routes through dissolves, and save following controls with each workspace.\n\nAdd Button Tally controls, configurable feedback colors, and animated Companion glow. Includes Companion module 0.3.3.\n\nRefine spreadsheet selection and live-test feedback, and improve local DIT Browse connection discovery."
+  "releaseNotes": "Hubble 1.1.8\n\nHubble 1.1.8: Stream Deck layouts and reliable workspace exports\n\nAdd Companion Layout with device previews for Stream Deck XL, MK.2, Mini, Neo, +, + XL, and Studio. Edit key and dial assignments, fill empty slots, customize numbering, and save reusable layout presets while preserving existing navigation and other controls.\n\nInclude Companion module 0.3.4 with automatic position-based button numbering and saved page numbering settings.\n\nWait for pending workspace and connection edits before exporting. Preserve every saved module connection, including unused connections, when importing complete configurations. Fix skipped queued workspace operations and ambiguous import mappings."
 }
