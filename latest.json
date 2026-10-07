@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.1.9",
-  "publishedAt": "2026-10-05T13:11:30.000Z",
+  "version": "1.1.10",
+  "publishedAt": "2026-10-07T22:08:58.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.9/Hubble-1.1.9.pkg",
-    "sha256": "e40ebf763a1ca63c5319cf838cf6a388cf07ec8d01b90d4f6b2de4c5fb2d4418",
-    "size": 177606839
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.10/Hubble-1.1.10.pkg",
+    "sha256": "99659030f34dde38d04701c0dae4ca38ff59a88c653777244040a8f34911cabf",
+    "size": 177608310
   },
-  "releaseNotes": "Hubble 1.1.9\n\nHubble 1.1.9: Easier startup and login controls\n\n- Open local Hubble directly from HubDash when its service is unavailable.\n- Reconnect automatically after slow or interrupted startup.\n- See whether Hubble opens at login and change it with a checkbox.\n- Preserve existing login settings and make login launch optional for new installations."
+  "releaseNotes": "Hubble 1.1.10\n\nHubble 1.1.10: Clearer controls and DIT Browse workspace actions\n\n- Refresh HubDash with readable text, neutral backgrounds, flatter buttons, matching dropdowns, and a blue Update button.\n- Let Variables and Advanced Actions use the available workbook height and stay open independently while resizing.\n- Add DIT Browse Switch workspace and Cycle workspaces actions. Cycle advances through the available workspaces and wraps back to the first.\n- Keep workspace switching compatible with older DIT Browse connections and report when an update is needed."
 }
