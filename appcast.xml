@@ -2,24 +2,29 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.14</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.16</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 1.1.14</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.14</link>
-      <pubDate>Thu, 08 Oct 2026 17:10:49 GMT</pubDate>
-      <description>Hubble 1.1.14
+      <title>Hubble 1.1.16</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.16</link>
+      <pubDate>Thu, 08 Oct 2026 21:25:30 GMT</pubDate>
+      <description>Hubble 1.1.16
 
-Hubble 1.1.14: make Status Log a copyable live activity list
+Hubble 1.1.16: module setup fixes, OGP port protection, and readable live logs
 
-Status Log now presents timestamped, selectable plain-text lines with Copy log, automatic pause while selecting or scrolling, and live resume. Filter all activity, background processes, or user actions, then narrow by source and search text.
+Adding another module now suggests unused module and shared profile names. Rejected saves explain the actual problem and keep entered settings available for correction.
 
-The log now includes startup, workspace changes and saves, configuration import/export, module health, routing, tally controls, and Companion layout/preset operations alongside button execution and connection diagnostics. Existing retained history and filtered JSONL export remain available.</description>
-      <sparkle:version>1.1.14</sparkle:version>
-      <sparkle:shortVersionString>1.1.14</sparkle:shortVersionString>
+- Ross Ultrix OGP identifies 5254 as its default port and requires an explicit override before changing it. The warning explains that another port must match the Ultrix OGP configuration. Existing custom ports are preserved; turning off the override restores 5254.
+- Module setup reports duplicate names and missing router hosts directly in the dialog, and records backend rejection details in Status Log.
+- Status Log uses readable messages, local times, device names, and filters for background activity and user actions. Newest entries stay at the top while live updates preserve reading position and text selection. Copy for support includes diagnostic details.
+- Button layout remains on the main page before Status Log.
+
+Validated with focused regression tests, affected typechecks, and isolated module save/restart checks. Existing workspaces and saved presets are preserved.</description>
+      <sparkle:version>1.1.16</sparkle:version>
+      <sparkle:shortVersionString>1.1.16</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.14/Hubble-1.1.14.pkg" sparkle:edSignature="6yx/DflaSK/i3aoo0oyROEyDr0xgo5bb1sRbZjT2CfDb9rqHX6VCwrr4feXTNIRgMLrSDYWVgxbCzORvncQRAw==" length="177657580" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.16/Hubble-1.1.16.pkg" sparkle:edSignature="6NLoY5x9W326UHhFDzYQmHpehQlqcMUW5lHAsKViqokP8XhjL/L5uiJCKviJ8znNtUYg7Po1ehVo/J8urlrWBw==" length="177657770" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

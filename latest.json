@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.1.14",
-  "publishedAt": "2026-10-08T17:10:49.000Z",
+  "version": "1.1.16",
+  "publishedAt": "2026-10-08T21:25:30.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.14/Hubble-1.1.14.pkg",
-    "sha256": "a695f8294f50e9e4013e6bde2fd12914b74786c9058a261893e5d2c26770f7b7",
-    "size": 177657580
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.16/Hubble-1.1.16.pkg",
+    "sha256": "1921ac0b815053635ed28c973b24f5d2fed66bdc570ecf6b3705ed60138cc4ad",
+    "size": 177657770
   },
-  "releaseNotes": "Hubble 1.1.14\n\nHubble 1.1.14: make Status Log a copyable live activity list\n\nStatus Log now presents timestamped, selectable plain-text lines with Copy log, automatic pause while selecting or scrolling, and live resume. Filter all activity, background processes, or user actions, then narrow by source and search text.\n\nThe log now includes startup, workspace changes and saves, configuration import/export, module health, routing, tally controls, and Companion layout/preset operations alongside button execution and connection diagnostics. Existing retained history and filtered JSONL export remain available."
+  "releaseNotes": "Hubble 1.1.16\n\nHubble 1.1.16: module setup fixes, OGP port protection, and readable live logs\n\nAdding another module now suggests unused module and shared profile names. Rejected saves explain the actual problem and keep entered settings available for correction.\n\n- Ross Ultrix OGP identifies 5254 as its default port and requires an explicit override before changing it. The warning explains that another port must match the Ultrix OGP configuration. Existing custom ports are preserved; turning off the override restores 5254.\n- Module setup reports duplicate names and missing router hosts directly in the dialog, and records backend rejection details in Status Log.\n- Status Log uses readable messages, local times, device names, and filters for background activity and user actions. Newest entries stay at the top while live updates preserve reading position and text selection. Copy for support includes diagnostic details.\n- Button layout remains on the main page before Status Log.\n\nValidated with focused regression tests, affected typechecks, and isolated module save/restart checks. Existing workspaces and saved presets are preserved."
 }
