@@ -2,29 +2,27 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.16</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.17</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 1.1.16</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.16</link>
-      <pubDate>Thu, 08 Oct 2026 21:25:30 GMT</pubDate>
-      <description>Hubble 1.1.16
+      <title>Hubble 1.1.17</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.17</link>
+      <pubDate>Thu, 08 Oct 2026 23:09:54 GMT</pubDate>
+      <description>Hubble 1.1.17
 
-Hubble 1.1.16: module setup fixes, OGP port protection, and readable live logs
+Hubble 1.1.17: reliable button saves and cut/paste
 
-Adding another module now suggests unused module and shared profile names. Rejected saves explain the actual problem and keep entered settings available for correction.
+- Fixes Command-X and paste for workbook cells and ranges. Cut waits for the clipboard before clearing cells, supports undo, and preserves moved formula references.
+- Fixes Companion button layout saves that failed after adding or editing several buttons together.
+- Shows clearer layout save errors and records the affected page and failure reason in Status Log.
+- Limits the Router page to modules added to the active workspace and shows their workspace names.
 
-- Ross Ultrix OGP identifies 5254 as its default port and requires an explicit override before changing it. The warning explains that another port must match the Ultrix OGP configuration. Existing custom ports are preserved; turning off the override restores 5254.
-- Module setup reports duplicate names and missing router hosts directly in the dialog, and records backend rejection details in Status Log.
-- Status Log uses readable messages, local times, device names, and filters for background activity and user actions. Newest entries stay at the top while live updates preserve reading position and text selection. Copy for support includes diagnostic details.
-- Button layout remains on the main page before Status Log.
-
-Validated with focused regression tests, affected typechecks, and isolated module save/restart checks. Existing workspaces and saved presets are preserved.</description>
-      <sparkle:version>1.1.16</sparkle:version>
-      <sparkle:shortVersionString>1.1.16</sparkle:shortVersionString>
+Verified with focused regression tests and live checks in the signed, installed apps. Existing workspaces, connections, and presets are preserved.</description>
+      <sparkle:version>1.1.17</sparkle:version>
+      <sparkle:shortVersionString>1.1.17</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.16/Hubble-1.1.16.pkg" sparkle:edSignature="6NLoY5x9W326UHhFDzYQmHpehQlqcMUW5lHAsKViqokP8XhjL/L5uiJCKviJ8znNtUYg7Po1ehVo/J8urlrWBw==" length="177657770" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.17/Hubble-1.1.17.pkg" sparkle:edSignature="TEmkRYQrckf8QKBSJZOz+wnOSGe5Naru91PhSZy42hZFn+PU11PE+b/FGnSiFG6XNt02Ai2xDfSn0v4U+AXfBw==" length="177671259" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

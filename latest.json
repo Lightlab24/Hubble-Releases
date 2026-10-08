@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.1.16",
-  "publishedAt": "2026-10-08T21:25:30.000Z",
+  "version": "1.1.17",
+  "publishedAt": "2026-10-08T23:09:54.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.16/Hubble-1.1.16.pkg",
-    "sha256": "1921ac0b815053635ed28c973b24f5d2fed66bdc570ecf6b3705ed60138cc4ad",
-    "size": 177657770
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.17/Hubble-1.1.17.pkg",
+    "sha256": "6c2e392c709e99019809793b4c87219e310da26a58348373312f1bd2130e4c0e",
+    "size": 177671259
   },
-  "releaseNotes": "Hubble 1.1.16\n\nHubble 1.1.16: module setup fixes, OGP port protection, and readable live logs\n\nAdding another module now suggests unused module and shared profile names. Rejected saves explain the actual problem and keep entered settings available for correction.\n\n- Ross Ultrix OGP identifies 5254 as its default port and requires an explicit override before changing it. The warning explains that another port must match the Ultrix OGP configuration. Existing custom ports are preserved; turning off the override restores 5254.\n- Module setup reports duplicate names and missing router hosts directly in the dialog, and records backend rejection details in Status Log.\n- Status Log uses readable messages, local times, device names, and filters for background activity and user actions. Newest entries stay at the top while live updates preserve reading position and text selection. Copy for support includes diagnostic details.\n- Button layout remains on the main page before Status Log.\n\nValidated with focused regression tests, affected typechecks, and isolated module save/restart checks. Existing workspaces and saved presets are preserved."
+  "releaseNotes": "Hubble 1.1.17\n\nHubble 1.1.17: reliable button saves and cut/paste\n\n- Fixes Command-X and paste for workbook cells and ranges. Cut waits for the clipboard before clearing cells, supports undo, and preserves moved formula references.\n- Fixes Companion button layout saves that failed after adding or editing several buttons together.\n- Shows clearer layout save errors and records the affected page and failure reason in Status Log.\n- Limits the Router page to modules added to the active workspace and shows their workspace names.\n\nVerified with focused regression tests and live checks in the signed, installed apps. Existing workspaces, connections, and presets are preserved."
 }
