@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.1.13",
-  "publishedAt": "2026-10-08T16:15:36.000Z",
+  "version": "1.1.14",
+  "publishedAt": "2026-10-08T17:10:49.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.13/Hubble-1.1.13.pkg",
-    "sha256": "9380c640d10fce910f5549dccb77a2e4869338476645dcdb6d22325aa8b9026b",
-    "size": 177652547
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.14/Hubble-1.1.14.pkg",
+    "sha256": "a695f8294f50e9e4013e6bde2fd12914b74786c9058a261893e5d2c26770f7b7",
+    "size": 177657580
   },
-  "releaseNotes": "Hubble 1.1.13\n\nHubble 1.1.13: Button layout in the top navigation and reliable saved presets\n\nOpen Button layout from the top navigation immediately before Status Log. The editor is available across views and supports full-page editing, range autofill, encoder assignments, and appearance feedback installation.\n\nLoad saved layouts that include buttons beyond a physical device footprint, including extended Stream Deck Studio presets. Distinguish an unreadable preset library from an empty library without changing saved files.\n\nDelete a saved preset through a visible confirmation dialog. Cancelling retains the preset, and deleting leaves Companion pages and the current layout draft unchanged.\n\nAlso includes improved cell formula navigation and LiveGrade Frontier support."
+  "releaseNotes": "Hubble 1.1.14\n\nHubble 1.1.14: make Status Log a copyable live activity list\n\nStatus Log now presents timestamped, selectable plain-text lines with Copy log, automatic pause while selecting or scrolling, and live resume. Filter all activity, background processes, or user actions, then narrow by source and search text.\n\nThe log now includes startup, workspace changes and saves, configuration import/export, module health, routing, tally controls, and Companion layout/preset operations alongside button execution and connection diagnostics. Existing retained history and filtered JSONL export remain available."
 }
