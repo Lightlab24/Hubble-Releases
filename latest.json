@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.1.10",
-  "publishedAt": "2026-10-07T22:08:58.000Z",
+  "version": "1.1.13",
+  "publishedAt": "2026-10-08T16:15:36.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.10/Hubble-1.1.10.pkg",
-    "sha256": "99659030f34dde38d04701c0dae4ca38ff59a88c653777244040a8f34911cabf",
-    "size": 177608310
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.13/Hubble-1.1.13.pkg",
+    "sha256": "9380c640d10fce910f5549dccb77a2e4869338476645dcdb6d22325aa8b9026b",
+    "size": 177652547
   },
-  "releaseNotes": "Hubble 1.1.10\n\nHubble 1.1.10: Clearer controls and DIT Browse workspace actions\n\n- Refresh HubDash with readable text, neutral backgrounds, flatter buttons, matching dropdowns, and a blue Update button.\n- Let Variables and Advanced Actions use the available workbook height and stay open independently while resizing.\n- Add DIT Browse Switch workspace and Cycle workspaces actions. Cycle advances through the available workspaces and wraps back to the first.\n- Keep workspace switching compatible with older DIT Browse connections and report when an update is needed."
+  "releaseNotes": "Hubble 1.1.13\n\nHubble 1.1.13: Button layout in the top navigation and reliable saved presets\n\nOpen Button layout from the top navigation immediately before Status Log. The editor is available across views and supports full-page editing, range autofill, encoder assignments, and appearance feedback installation.\n\nLoad saved layouts that include buttons beyond a physical device footprint, including extended Stream Deck Studio presets. Distinguish an unreadable preset library from an empty library without changing saved files.\n\nDelete a saved preset through a visible confirmation dialog. Cancelling retains the preset, and deleting leaves Companion pages and the current layout draft unchanged.\n\nAlso includes improved cell formula navigation and LiveGrade Frontier support."
 }
