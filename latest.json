@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.1.17",
-  "publishedAt": "2026-10-08T23:09:54.000Z",
+  "version": "1.1.18",
+  "publishedAt": "2026-10-09T04:14:43.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.17/Hubble-1.1.17.pkg",
-    "sha256": "6c2e392c709e99019809793b4c87219e310da26a58348373312f1bd2130e4c0e",
-    "size": 177671259
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.18/Hubble-1.1.18.pkg",
+    "sha256": "938e0e11ce9c23f97cee2c75a7c08955ed4361909c0822b58d47409fb5585837",
+    "size": 177811467
   },
-  "releaseNotes": "Hubble 1.1.17\n\nHubble 1.1.17: reliable button saves and cut/paste\n\n- Fixes Command-X and paste for workbook cells and ranges. Cut waits for the clipboard before clearing cells, supports undo, and preserves moved formula references.\n- Fixes Companion button layout saves that failed after adding or editing several buttons together.\n- Shows clearer layout save errors and records the affected page and failure reason in Status Log.\n- Limits the Router page to modules added to the active workspace and shows their workspace names.\n\nVerified with focused regression tests and live checks in the signed, installed apps. Existing workspaces, connections, and presets are preserved."
+  "releaseNotes": "Hubble 1.1.18\n\nHubble 1.1.18: reliable range cut/paste, faster headers and one LiveGrade connection\n\n- Move selected cell ranges with Command-X and Command-V, including routing groups, overlapping moves, formulas and one-step Undo. Clear the cut highlight after a completed paste.\n- Keep the existing table when actions are added, deleted, undone or redone, and make header expand/collapse controls available sooner after reload.\n- Use one LiveGrade connection and choose LiveGrade Studio 6, LiveGrade 7 or LiveGrade Frontier when adding each action. Move actions to one connection before deleting duplicate connections.\n- Improve layout-ID confirmations and offline Companion synchronization while preserving the readable Status Log, full Button layout editor, presets and module setup improvements."
 }
