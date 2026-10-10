@@ -2,25 +2,24 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.18</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.2.0</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 1.1.18</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.1.18</link>
-      <pubDate>Fri, 09 Oct 2026 04:14:43 GMT</pubDate>
-      <description>Hubble 1.1.18
+      <title>Hubble 1.2.0</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.2.0</link>
+      <pubDate>Sat, 10 Oct 2026 22:40:14 GMT</pubDate>
+      <description>Hubble 1.2.0
 
-Hubble 1.1.18: reliable range cut/paste, faster headers and one LiveGrade connection
+Hubble 1.2.0: workspace-local modules and per-action LiveGrade targets
 
-- Move selected cell ranges with Command-X and Command-V, including routing groups, overlapping moves, formulas and one-step Undo. Clear the cut highlight after a completed paste.
-- Keep the existing table when actions are added, deleted, undone or redone, and make header expand/collapse controls available sooner after reload.
-- Use one LiveGrade connection and choose LiveGrade Studio 6, LiveGrade 7 or LiveGrade Frontier when adding each action. Move actions to one connection before deleting duplicate connections.
-- Improve layout-ID confirmations and offline Companion synchronization while preserving the readable Status Log, full Button layout editor, presets and module setup improvements.</description>
-      <sparkle:version>1.1.18</sparkle:version>
-      <sparkle:shortVersionString>1.1.18</sparkle:shortVersionString>
+Keep each workspace’s configured modules local, preserving saved settings, module assignments, action selections, slot values, and formulas during the upgrade. Copy configured modules from another workspace when needed.
+
+Use one module name and one Save Changes button. Choose LiveGrade Pro 6, Studio 6, LiveGrade 7, or Frontier per action, with smart slot values retained when switching applications. Existing actions keep their saved application targets.</description>
+      <sparkle:version>1.2.0</sparkle:version>
+      <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.18/Hubble-1.1.18.pkg" sparkle:edSignature="uURRYEgwgVGcenkxVZWAF1cDA59o2Y2lAJrViPsxBLS7maLqoWlIo2acRsnELueuiBL4vC25biMqY5/eKeIMDA==" length="177811467" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.2.0/Hubble-1.2.0.pkg" sparkle:edSignature="oofchda5naw0sUcPCK7ccM6UsZabN9lxBPxxYJ/yXbD61sKPmV2gMa9zAqInH2LVKxr63B5lO8Bb21mx+L7+BQ==" length="177811204" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.1.18",
-  "publishedAt": "2026-10-09T04:14:43.000Z",
+  "version": "1.2.0",
+  "publishedAt": "2026-10-10T22:40:14.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.1.18/Hubble-1.1.18.pkg",
-    "sha256": "938e0e11ce9c23f97cee2c75a7c08955ed4361909c0822b58d47409fb5585837",
-    "size": 177811467
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.2.0/Hubble-1.2.0.pkg",
+    "sha256": "80b448bb1b0966ade88e2446b877ae9170b5a5c9505d67f8cfab0f877c7987b1",
+    "size": 177811204
   },
-  "releaseNotes": "Hubble 1.1.18\n\nHubble 1.1.18: reliable range cut/paste, faster headers and one LiveGrade connection\n\n- Move selected cell ranges with Command-X and Command-V, including routing groups, overlapping moves, formulas and one-step Undo. Clear the cut highlight after a completed paste.\n- Keep the existing table when actions are added, deleted, undone or redone, and make header expand/collapse controls available sooner after reload.\n- Use one LiveGrade connection and choose LiveGrade Studio 6, LiveGrade 7 or LiveGrade Frontier when adding each action. Move actions to one connection before deleting duplicate connections.\n- Improve layout-ID confirmations and offline Companion synchronization while preserving the readable Status Log, full Button layout editor, presets and module setup improvements."
+  "releaseNotes": "Hubble 1.2.0\n\nHubble 1.2.0: workspace-local modules and per-action LiveGrade targets\n\nKeep each workspace’s configured modules local, preserving saved settings, module assignments, action selections, slot values, and formulas during the upgrade. Copy configured modules from another workspace when needed.\n\nUse one module name and one Save Changes button. Choose LiveGrade Pro 6, Studio 6, LiveGrade 7, or Frontier per action, with smart slot values retained when switching applications. Existing actions keep their saved application targets."
 }
