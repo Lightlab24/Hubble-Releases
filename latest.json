@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.2.0",
-  "publishedAt": "2026-10-10T22:40:14.000Z",
+  "version": "1.3.0",
+  "publishedAt": "2026-10-14T05:51:55.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.2.0/Hubble-1.2.0.pkg",
-    "sha256": "80b448bb1b0966ade88e2446b877ae9170b5a5c9505d67f8cfab0f877c7987b1",
-    "size": 177811204
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.3.0/Hubble-1.3.0.pkg",
+    "sha256": "47623eaca8a2d97476398898cad4b6cd4f25eb435987b258038c0d2b100e1ca3",
+    "size": 177971775
   },
-  "releaseNotes": "Hubble 1.2.0\n\nHubble 1.2.0: workspace-local modules and per-action LiveGrade targets\n\nKeep each workspace’s configured modules local, preserving saved settings, module assignments, action selections, slot values, and formulas during the upgrade. Copy configured modules from another workspace when needed.\n\nUse one module name and one Save Changes button. Choose LiveGrade Pro 6, Studio 6, LiveGrade 7, or Frontier per action, with smart slot values retained when switching applications. Existing actions keep their saved application targets."
+  "releaseNotes": "Hubble 1.3.0\n\nHubble 1.3.0: configurable long-press actions\n\nAdd 1-, 2-, and 3-second holds through action-column settings, Physical\nAction Type, and the Advanced actions editor.\n\nThe Long Press column menu and duration badges make action timing easy\nto see. Rotate Left and Rotate Right keep their existing behavior and\nignore column timing.\n\nCompanion runs native duration groups with short-tap handling, preserves\nmanual customizations, and synchronizes managed actions automatically.\nIncludes Companion module 0.3.5 and compatible support for older modules."
 }
