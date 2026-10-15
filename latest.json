@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.3.0",
-  "publishedAt": "2026-10-14T05:51:55.000Z",
+  "version": "1.3.1",
+  "publishedAt": "2026-10-15T16:19:28.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.3.0/Hubble-1.3.0.pkg",
-    "sha256": "47623eaca8a2d97476398898cad4b6cd4f25eb435987b258038c0d2b100e1ca3",
-    "size": 177971775
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.3.1/Hubble-1.3.1.pkg",
+    "sha256": "fa55f85e0ba8eae50f3038996e6418586f2f803fb13f855045c9fb6427e73d7c",
+    "size": 178079305
   },
-  "releaseNotes": "Hubble 1.3.0\n\nHubble 1.3.0: configurable long-press actions\n\nAdd 1-, 2-, and 3-second holds through action-column settings, Physical\nAction Type, and the Advanced actions editor.\n\nThe Long Press column menu and duration badges make action timing easy\nto see. Rotate Left and Rotate Right keep their existing behavior and\nignore column timing.\n\nCompanion runs native duration groups with short-tap handling, preserves\nmanual customizations, and synchronizes managed actions automatically.\nIncludes Companion module 0.3.5 and compatible support for older modules."
+  "releaseNotes": "Hubble 1.3.1\n\nHubble 1.3.1: button layout editing and feedback defaults\n\nMove buttons with Command-drag, Shift-select multiple buttons, and copy, cut, or paste with Command-C, Command-X, and Command-V. The compact drag preview keeps the layout readable.\n\nView and edit button actions below the layout with the same field behavior as the main matrix. Text and numeric values stay directly editable, and opening the action editor keeps the buttons at their existing size. Refresh the layout or show and hide the editor from its controls.\n\nEnable feedback by default for new actions in each module's settings. Existing actions and individual feedback choices are preserved.\n\nInstall or reinstall the Companion plugin from Module Connections or Button Layout, with its version shown beside the button. The setup guide now puts installation, permissions, and required settings first."
 }
