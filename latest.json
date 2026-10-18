@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.3.1",
-  "publishedAt": "2026-10-15T16:19:28.000Z",
+  "version": "1.4.0",
+  "publishedAt": "2026-10-18T16:28:45.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.3.1/Hubble-1.3.1.pkg",
-    "sha256": "fa55f85e0ba8eae50f3038996e6418586f2f803fb13f855045c9fb6427e73d7c",
-    "size": 178079305
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.4.0/Hubble-1.4.0.pkg",
+    "sha256": "03a096659034e6da7b3cb3e0098a1389933cfbd6c106195b62dd45f8cdd54bbe",
+    "size": 178276417
   },
-  "releaseNotes": "Hubble 1.3.1\n\nHubble 1.3.1: button layout editing and feedback defaults\n\nMove buttons with Command-drag, Shift-select multiple buttons, and copy, cut, or paste with Command-C, Command-X, and Command-V. The compact drag preview keeps the layout readable.\n\nView and edit button actions below the layout with the same field behavior as the main matrix. Text and numeric values stay directly editable, and opening the action editor keeps the buttons at their existing size. Refresh the layout or show and hide the editor from its controls.\n\nEnable feedback by default for new actions in each module's settings. Existing actions and individual feedback choices are preserved.\n\nInstall or reinstall the Companion plugin from Module Connections or Button Layout, with its version shown beside the button. The setup guide now puts installation, permissions, and required settings first."
+  "releaseNotes": "Hubble 1.4.0\n\nHubble 1.4.0: sheets and reliable configuration transfers\n\nOrganize buttons with named sheet tabs above Advanced actions. Move selected rows to another sheet or a new sheet, with moved buttons automatically appended at the end.\n\nCommand-click selects nonconsecutive rows. The last remaining sheet cannot be removed. Removing a populated sheet offers moving its buttons or deleting them, with a second confirmation before deletion.\n\nConfiguration export/import and full-spreadsheet copy/import preserve sheet names, order, active sheet, empty sheets, button assignments, variables, formulas, actions, connections, and layout. Older files remain readable; update receiving installations to 1.4.0 before using new exports.\n\nIncludes immediate workbook and panel saves, System Actions for application keyboard shortcuts and menu commands, and more complete macOS menu discovery."
 }
