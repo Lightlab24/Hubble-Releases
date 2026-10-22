@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.4.0",
-  "publishedAt": "2026-10-18T16:28:45.000Z",
+  "version": "1.4.1",
+  "publishedAt": "2026-10-22T19:23:53.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.4.0/Hubble-1.4.0.pkg",
-    "sha256": "03a096659034e6da7b3cb3e0098a1389933cfbd6c106195b62dd45f8cdd54bbe",
-    "size": 178276417
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.4.1/Hubble-1.4.1.pkg",
+    "sha256": "ecd9a72936369f86514b952a8b46fcc911d845dbe5adcc116695594473e73639",
+    "size": 178837937
   },
-  "releaseNotes": "Hubble 1.4.0\n\nHubble 1.4.0: sheets and reliable configuration transfers\n\nOrganize buttons with named sheet tabs above Advanced actions. Move selected rows to another sheet or a new sheet, with moved buttons automatically appended at the end.\n\nCommand-click selects nonconsecutive rows. The last remaining sheet cannot be removed. Removing a populated sheet offers moving its buttons or deleting them, with a second confirmation before deletion.\n\nConfiguration export/import and full-spreadsheet copy/import preserve sheet names, order, active sheet, empty sheets, button assignments, variables, formulas, actions, connections, and layout. Older files remain readable; update receiving installations to 1.4.0 before using new exports.\n\nIncludes immediate workbook and panel saves, System Actions for application keyboard shortcuts and menu commands, and more complete macOS menu discovery."
+  "releaseNotes": "Hubble 1.4.1\n\nHubble 1.4.1: Evertz routing and Stream Deck beta\n\n- Add Evertz Quartz routing for direct routers and MAGNUM, with live feedback, source and destination names, destination locks, and system salvos.\n- Add direct Stream Deck control (Beta), including device setup, page editing, button assignments, and saved workspace transfers.\n- Open Button Layout on Companion by default at startup and keep your chosen integration during the current session.\n- Label the direct integration Stream Deck (Beta)."
 }
