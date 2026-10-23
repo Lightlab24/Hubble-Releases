@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.4.1",
-  "publishedAt": "2026-10-22T19:23:53.000Z",
+  "version": "1.4.2",
+  "publishedAt": "2026-10-23T00:18:09.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.4.1/Hubble-1.4.1.pkg",
-    "sha256": "ecd9a72936369f86514b952a8b46fcc911d845dbe5adcc116695594473e73639",
-    "size": 178837937
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.4.2/Hubble-1.4.2.pkg",
+    "sha256": "9a722c3cfbb05b2059d86a07987d32bdf223c4775e93d763b5fd32eae6dc51b3",
+    "size": 178845642
   },
-  "releaseNotes": "Hubble 1.4.1\n\nHubble 1.4.1: Evertz routing and Stream Deck beta\n\n- Add Evertz Quartz routing for direct routers and MAGNUM, with live feedback, source and destination names, destination locks, and system salvos.\n- Add direct Stream Deck control (Beta), including device setup, page editing, button assignments, and saved workspace transfers.\n- Open Button Layout on Companion by default at startup and keep your chosen integration during the current session.\n- Label the direct integration Stream Deck (Beta)."
+  "releaseNotes": "Hubble 1.4.2\n\nHubble 1.4.2: Quartz connection fixes and CyanView RCP controls\n\n- Improve Evertz Quartz startup, keepalives, reconnection, and repeated route requests using the CyanView connection flow.\n- Load router names on request so optional discovery does not prevent routing.\n- Add CyanView RCP Select Camera, Record Camera (Toggle), and Record Group ALL (Toggle), with feedback off by default.\n- Preserve CyanView RCP connections and actions in workspace imports, exports, and spreadsheet transfers."
 }
