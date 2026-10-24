@@ -2,29 +2,26 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.5.1</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.5.2</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 1.5.1</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.5.1</link>
-      <pubDate>Sat, 24 Oct 2026 17:16:48 GMT</pubDate>
-      <description>Hubble 1.5.1
+      <title>Hubble 1.5.2</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v1.5.2</link>
+      <pubDate>Sat, 24 Oct 2026 19:20:17 GMT</pubDate>
+      <description>Hubble 1.5.2
 
-Hubble 1.5.1: Camera controls and smoother workspace editing
+Hubble 1.5.2: Reliable module connection switches
 
-- Add the CCC camera-control sheet with per-camera and all-camera enable/disable toggles, recording controls, and ND/ISO up and down actions. Inactive feedback uses the button&apos;s normal background.
-- Search action choices while typing, accept or autofill with Enter, and open or close choices with Option, including Ross source and destination cells.
-- Clear validation notices into a separate Cleared section while retaining red cell highlights, and jump directly from a notice to its affected field. Removing invalid values clears stale labels and linked errors immediately.
-- Fix the blank screen after deleting many or all buttons, including workspaces with hidden sheet rows.
-- Apply settings and workbook edits immediately while saving in the background, with recovery when saving fails.
-- Preserve button sheets, sheet-specific actions, camera settings, and layouts through workspace export/import and full-spreadsheet transfer.
-- Set up and edit remembered Stream Deck devices while disconnected, assign future Button IDs, and preserve button artwork.
-- Add the DIT Browse grid-view action and improve DIT Browse and Ross OGP connection recovery.</description>
-      <sparkle:version>1.5.1</sparkle:version>
-      <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
+Fixes module connections getting stuck on or off after toggling them.
+
+- Keeps your latest enable/disable choice when saves finish.
+- Prevents older saves from making switches flip back on their own.
+- Keeps switches responsive for connected and disconnected modules, including DIT Browse and LiveGrade.</description>
+      <sparkle:version>1.5.2</sparkle:version>
+      <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.5.1/Hubble-1.5.1.pkg" sparkle:edSignature="AuU35NC67Wozknq1YLZ6P5wHrOU9JWH08lGoKrImvbiZeJMPNm0zCzj7zb4X9aixuD1PEpMvRyZ8kHiH5OAtAA==" length="178927908" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.5.2/Hubble-1.5.2.pkg" sparkle:edSignature="97G4KPcTLGilKbt8eXF+P0+TSDJ2i1TzFMkRJTfMyuZXp5HinhtxtboyVAyLf3tpf4q3PeihxzZecAVAPxS6CA==" length="178929457" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.5.1",
-  "publishedAt": "2026-10-24T17:16:48.000Z",
+  "version": "1.5.2",
+  "publishedAt": "2026-10-24T19:20:17.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.5.1/Hubble-1.5.1.pkg",
-    "sha256": "5bcf2e724039e68cb1d3139cebf71d840f1a115181231e8e19dd69f79719f6e9",
-    "size": 178927908
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.5.2/Hubble-1.5.2.pkg",
+    "sha256": "9df668bddcd11e8441da6561515828d8e242cc3f5e474e6c0e7f6381be2dd26a",
+    "size": 178929457
   },
-  "releaseNotes": "Hubble 1.5.1\n\nHubble 1.5.1: Camera controls and smoother workspace editing\n\n- Add the CCC camera-control sheet with per-camera and all-camera enable/disable toggles, recording controls, and ND/ISO up and down actions. Inactive feedback uses the button's normal background.\n- Search action choices while typing, accept or autofill with Enter, and open or close choices with Option, including Ross source and destination cells.\n- Clear validation notices into a separate Cleared section while retaining red cell highlights, and jump directly from a notice to its affected field. Removing invalid values clears stale labels and linked errors immediately.\n- Fix the blank screen after deleting many or all buttons, including workspaces with hidden sheet rows.\n- Apply settings and workbook edits immediately while saving in the background, with recovery when saving fails.\n- Preserve button sheets, sheet-specific actions, camera settings, and layouts through workspace export/import and full-spreadsheet transfer.\n- Set up and edit remembered Stream Deck devices while disconnected, assign future Button IDs, and preserve button artwork.\n- Add the DIT Browse grid-view action and improve DIT Browse and Ross OGP connection recovery."
+  "releaseNotes": "Hubble 1.5.2\n\nHubble 1.5.2: Reliable module connection switches\n\nFixes module connections getting stuck on or off after toggling them.\n\n- Keeps your latest enable/disable choice when saves finish.\n- Prevents older saves from making switches flip back on their own.\n- Keeps switches responsive for connected and disconnected modules, including DIT Browse and LiveGrade."
 }
