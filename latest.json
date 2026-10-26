@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "1.5.2",
-  "publishedAt": "2026-10-24T19:20:17.000Z",
+  "version": "2.0.0",
+  "publishedAt": "2026-10-26T13:29:39.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v1.5.2/Hubble-1.5.2.pkg",
-    "sha256": "9df668bddcd11e8441da6561515828d8e242cc3f5e474e6c0e7f6381be2dd26a",
-    "size": 178929457
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.0/Hubble-2.0.0.pkg",
+    "sha256": "71b9e8ad643e87c3e0e3cb2490c11f6a913cdb897ef007e0cf2203dfc97805a0",
+    "size": 188557455
   },
-  "releaseNotes": "Hubble 1.5.2\n\nHubble 1.5.2: Reliable module connection switches\n\nFixes module connections getting stuck on or off after toggling them.\n\n- Keeps your latest enable/disable choice when saves finish.\n- Prevents older saves from making switches flip back on their own.\n- Keeps switches responsive for connected and disconnected modules, including DIT Browse and LiveGrade."
+  "releaseNotes": "# Hubble 2.0\n\nHubble 2.0 updates your existing Hubble and HubDash installation. Your saved\nworkspaces, service settings, and Companion connections stay in place. Existing\nCompanion buttons, actions, and feedback use the same protocol and do not need\nto be recreated. The separate Hubble2 and HubDash2 names are for development;\nthe release keeps the Hubble and HubDash names.\n\n- Device and workspace modules now have independent versions and releases. The\n  initial 14 official modules are version 1.0.0, independently of the Hubble app's\n  2.0 version. A new module release no longer requires an application update.\n- Add module brings installed modules, available downloads, and custom-package\n  imports into one searchable picker. Public source and the developer kit are\n  available in [Hubble-Modules](https://github.com/Lightlab24/Hubble-Modules).\n- Module versions can be selected, pinned, and rolled back. Automatic module\n  installation is off by default; when enabled, compatible stable updates apply\n  at the next Hubble service startup. Beta versions remain a manual choice.\n- Main-matrix feedback appears faster across modules, including CCC camera\n  enable/disable and destination selection. Editing and connection switches remain\n  responsive while saves complete.\n- Workspace transfers preserve module settings and version policies. Previous\n  module packages and configuration backups support upgrade recovery.\n\nRoss routing now uses Ultrix OGP. Saved SW-P-08 configurations remain readable,\nbut the retired SW-P-08 transport is unavailable; use an OGP connection for Ultrix.\n\nThe application update is optional. Existing service ports and configured\naddresses are retained; defaults remain 42837 for Companion and 42838 for HubDash."
 }
