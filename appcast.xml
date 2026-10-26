@@ -2,45 +2,33 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.0</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.2</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.0.0</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.0</link>
-      <pubDate>Mon, 26 Oct 2026 13:29:39 GMT</pubDate>
-      <description># Hubble 2.0
+      <title>Hubble 2.0.2</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.2</link>
+      <pubDate>Mon, 26 Oct 2026 17:22:58 GMT</pubDate>
+      <description># Hubble 2.0.2
 
-Hubble 2.0 updates your existing Hubble and HubDash installation. Your saved
-workspaces, service settings, and Companion connections stay in place. Existing
-Companion buttons, actions, and feedback use the same protocol and do not need
-to be recreated. The separate Hubble2 and HubDash2 names are for development;
-the release keeps the Hubble and HubDash names.
+- Modules can provide their own sidebar screens with settings, editable spreadsheets,
+  read-only tables, and live status. Compatible module updates can add or change these
+  screens without another Hubble application update.
+- Button Layout keeps the main sidebar visible. Draft layout edits stay in place
+  when switching screens, and saved presets load when the layout editor opens.
+- Action menus use module-defined labels and groups, including the Ross OGP action
+  types. Settings support live grouped choices and fractional number values.
+- Module settings and spreadsheet rows retain their identities and order through
+  workspace export, import, and clipboard transfer.
+- Developer kit 1.1.0 includes the sidebar-page API guide and a working example.
 
-- Device and workspace modules now have independent versions and releases. The
-  initial 14 official modules are version 1.0.0, independently of the Hubble app&apos;s
-  2.0 version. A new module release no longer requires an application update.
-- Add module brings installed modules, available downloads, and custom-package
-  imports into one searchable picker. Public source and the developer kit are
-  available in [Hubble-Modules](https://github.com/Lightlab24/Hubble-Modules).
-- Module versions can be selected, pinned, and rolled back. Automatic module
-  installation is off by default; when enabled, compatible stable updates apply
-  at the next Hubble service startup. Beta versions remain a manual choice.
-- Main-matrix feedback appears faster across modules, including CCC camera
-  enable/disable and destination selection. Editing and connection switches remain
-  responsive while saves complete.
-- Workspace transfers preserve module settings and version policies. Previous
-  module packages and configuration backups support upgrade recovery.
-
-Ross routing now uses Ultrix OGP. Saved SW-P-08 configurations remain readable,
-but the retired SW-P-08 transport is unavailable; use an OGP connection for Ultrix.
-
-The application update is optional. Existing service ports and configured
-addresses are retained; defaults remain 42837 for Companion and 42838 for HubDash.</description>
-      <sparkle:version>2.0.0</sparkle:version>
-      <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
+This optional update installs Hubble and HubDash together and preserves existing
+workspaces, module selections, settings, and Companion connections. Ross OGP 1.0.1
+is available separately through module updates.</description>
+      <sparkle:version>2.0.2</sparkle:version>
+      <sparkle:shortVersionString>2.0.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.0/Hubble-2.0.0.pkg" sparkle:edSignature="NpYCL/a0HuWxwwmm4OdTAeLcSutu6P810ldDY/Kx4FDkC4eag2SQijo+irwBgdvoL4j3TTBZayb+dBJtghQwDA==" length="188557455" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.2/Hubble-2.0.2.pkg" sparkle:edSignature="nrXHy8i56M+7A1+lsE/T5218/vYjpZsmE1wV2kba6lhWPOJSO4e5pSufGG1gXQ7M9r6oBR7hqpOm6vTDk6QxBw==" length="188609151" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
