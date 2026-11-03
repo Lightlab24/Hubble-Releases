@@ -2,40 +2,29 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.15</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.16</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.0.15</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.15</link>
-      <pubDate>Tue, 03 Nov 2026 01:50:05 GMT</pubDate>
-      <description># Hubble 2.0.15
+      <title>Hubble 2.0.16</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.16</link>
+      <pubDate>Tue, 03 Nov 2026 04:48:42 GMT</pubDate>
+      <description>Hubble 2.0.16 keeps feedback preferences editable and makes Cancel immediate.
 
-- Typing into the blank Button Matrix row creates a complete editable button
-  immediately. Further edits stay usable while saves are pending.
-- Advanced actions use the module&apos;s contextual choices, named routing groups and
-  compound values, matching the Matrix editing workflow.
-- Ross OGP, AJA KUMO, Evertz Quartz and Blackmagic Videohub share offline blue SRC
-  and purple DST values, readable highlighted text and quieter incomplete drafts.
-  Routing and feedback updates avoid repeated configuration and snapshot work.
-- CCC retains camera readouts while cameras are enabled or disabled and allows
-  slower recording feedback before a queued Stop.
-- TALLY Switch restores ON AIR row highlights, including during editing and saves.
-- Companion and Stream Deck layouts have a visible Show button text switch.
-  Companion layout choices keep their text inside collapsed controls.
-- Module-owned spreadsheets retain formulas, clipboard data, declared fill
-  behavior and feedback through immediate edits and ordered background saves.
-- Switching workspaces starts modules against the correct saved documents and
-  preserves active module feedback in the desktop interface.
-- Workspace imports keep their completion message while the spreadsheet reloads.
+- Feedback colors remain visible and editable when feedback is disabled across
+  router, CCC, Cyanview RCP, DIT Browse, LightEncode, and TSL actions. TSL glow
+  preferences also remain editable while feedback is off.
+- Cancel immediately restores the previous Button ID or button type and returns
+  you to editing while the change saves in the background.
+- Consecutive edits stay ordered, and failed cancellations preserve unrelated
+  edits while restoring the confirmation for retry.
 
-This optional update installs Hubble and HubDash together and preserves existing
-workspaces and settings. Compatible module updates retain their independent
-versions and existing update policies.</description>
-      <sparkle:version>2.0.15</sparkle:version>
-      <sparkle:shortVersionString>2.0.15</sparkle:shortVersionString>
+The installer includes the updated official module packages. Existing workspace
+data and module update policies are preserved. This update is optional.</description>
+      <sparkle:version>2.0.16</sparkle:version>
+      <sparkle:shortVersionString>2.0.16</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.15/Hubble-2.0.15.pkg" sparkle:edSignature="nEdZQVIixjU2ubvc6dgjXzpKMqnYscy9nqu4x7PAB2cFFlEr9vXqGp3qEeJVSOLn2cLB4OySPp8IYl3loWwODQ==" length="194824640" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.16/Hubble-2.0.16.pkg" sparkle:edSignature="dixDs528nsNjz4CkvOWKMT5U6YX0c6SwZZRMqTxTMC09mm1cGAGt4Af/DwiXmFS6Pe+5IOAeyAYJmt9hr04uBg==" length="197938297" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

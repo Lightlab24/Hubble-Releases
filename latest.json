@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "2.0.15",
-  "publishedAt": "2026-11-03T01:50:05.000Z",
+  "version": "2.0.16",
+  "publishedAt": "2026-11-03T04:48:42.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.15/Hubble-2.0.15.pkg",
-    "sha256": "da2d56001dc0c7aa05c854349de714e0fe6b4af57954bdb187e2831cdd7b725c",
-    "size": 194824640
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.16/Hubble-2.0.16.pkg",
+    "sha256": "6332ce3976d1ec55158e1ec400662700ba300cbc3b9cea5105ff9f47a1756a19",
+    "size": 197938297
   },
-  "releaseNotes": "# Hubble 2.0.15\n\n- Typing into the blank Button Matrix row creates a complete editable button\n  immediately. Further edits stay usable while saves are pending.\n- Advanced actions use the module's contextual choices, named routing groups and\n  compound values, matching the Matrix editing workflow.\n- Ross OGP, AJA KUMO, Evertz Quartz and Blackmagic Videohub share offline blue SRC\n  and purple DST values, readable highlighted text and quieter incomplete drafts.\n  Routing and feedback updates avoid repeated configuration and snapshot work.\n- CCC retains camera readouts while cameras are enabled or disabled and allows\n  slower recording feedback before a queued Stop.\n- TALLY Switch restores ON AIR row highlights, including during editing and saves.\n- Companion and Stream Deck layouts have a visible Show button text switch.\n  Companion layout choices keep their text inside collapsed controls.\n- Module-owned spreadsheets retain formulas, clipboard data, declared fill\n  behavior and feedback through immediate edits and ordered background saves.\n- Switching workspaces starts modules against the correct saved documents and\n  preserves active module feedback in the desktop interface.\n- Workspace imports keep their completion message while the spreadsheet reloads.\n\nThis optional update installs Hubble and HubDash together and preserves existing\nworkspaces and settings. Compatible module updates retain their independent\nversions and existing update policies."
+  "releaseNotes": "Hubble 2.0.16 keeps feedback preferences editable and makes Cancel immediate.\n\n- Feedback colors remain visible and editable when feedback is disabled across\n  router, CCC, Cyanview RCP, DIT Browse, LightEncode, and TSL actions. TSL glow\n  preferences also remain editable while feedback is off.\n- Cancel immediately restores the previous Button ID or button type and returns\n  you to editing while the change saves in the background.\n- Consecutive edits stay ordered, and failed cancellations preserve unrelated\n  edits while restoring the confirmation for retry.\n\nThe installer includes the updated official module packages. Existing workspace\ndata and module update policies are preserved. This update is optional."
 }
