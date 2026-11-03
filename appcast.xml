@@ -2,33 +2,40 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.2</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.15</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.0.2</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.2</link>
-      <pubDate>Mon, 26 Oct 2026 17:22:58 GMT</pubDate>
-      <description># Hubble 2.0.2
+      <title>Hubble 2.0.15</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.15</link>
+      <pubDate>Tue, 03 Nov 2026 01:50:05 GMT</pubDate>
+      <description># Hubble 2.0.15
 
-- Modules can provide their own sidebar screens with settings, editable spreadsheets,
-  read-only tables, and live status. Compatible module updates can add or change these
-  screens without another Hubble application update.
-- Button Layout keeps the main sidebar visible. Draft layout edits stay in place
-  when switching screens, and saved presets load when the layout editor opens.
-- Action menus use module-defined labels and groups, including the Ross OGP action
-  types. Settings support live grouped choices and fractional number values.
-- Module settings and spreadsheet rows retain their identities and order through
-  workspace export, import, and clipboard transfer.
-- Developer kit 1.1.0 includes the sidebar-page API guide and a working example.
+- Typing into the blank Button Matrix row creates a complete editable button
+  immediately. Further edits stay usable while saves are pending.
+- Advanced actions use the module&apos;s contextual choices, named routing groups and
+  compound values, matching the Matrix editing workflow.
+- Ross OGP, AJA KUMO, Evertz Quartz and Blackmagic Videohub share offline blue SRC
+  and purple DST values, readable highlighted text and quieter incomplete drafts.
+  Routing and feedback updates avoid repeated configuration and snapshot work.
+- CCC retains camera readouts while cameras are enabled or disabled and allows
+  slower recording feedback before a queued Stop.
+- TALLY Switch restores ON AIR row highlights, including during editing and saves.
+- Companion and Stream Deck layouts have a visible Show button text switch.
+  Companion layout choices keep their text inside collapsed controls.
+- Module-owned spreadsheets retain formulas, clipboard data, declared fill
+  behavior and feedback through immediate edits and ordered background saves.
+- Switching workspaces starts modules against the correct saved documents and
+  preserves active module feedback in the desktop interface.
+- Workspace imports keep their completion message while the spreadsheet reloads.
 
 This optional update installs Hubble and HubDash together and preserves existing
-workspaces, module selections, settings, and Companion connections. Ross OGP 1.0.1
-is available separately through module updates.</description>
-      <sparkle:version>2.0.2</sparkle:version>
-      <sparkle:shortVersionString>2.0.2</sparkle:shortVersionString>
+workspaces and settings. Compatible module updates retain their independent
+versions and existing update policies.</description>
+      <sparkle:version>2.0.15</sparkle:version>
+      <sparkle:shortVersionString>2.0.15</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.2/Hubble-2.0.2.pkg" sparkle:edSignature="nrXHy8i56M+7A1+lsE/T5218/vYjpZsmE1wV2kba6lhWPOJSO4e5pSufGG1gXQ7M9r6oBR7hqpOm6vTDk6QxBw==" length="188609151" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.15/Hubble-2.0.15.pkg" sparkle:edSignature="nEdZQVIixjU2ubvc6dgjXzpKMqnYscy9nqu4x7PAB2cFFlEr9vXqGp3qEeJVSOLn2cLB4OySPp8IYl3loWwODQ==" length="194824640" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

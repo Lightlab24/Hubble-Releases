@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "2.0.2",
-  "publishedAt": "2026-10-26T17:22:58.000Z",
+  "version": "2.0.15",
+  "publishedAt": "2026-11-03T01:50:05.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.2/Hubble-2.0.2.pkg",
-    "sha256": "086135288d2197531f04d649032dcddc1d19c4a33f4933a5b42f609eeb2d8746",
-    "size": 188609151
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.15/Hubble-2.0.15.pkg",
+    "sha256": "da2d56001dc0c7aa05c854349de714e0fe6b4af57954bdb187e2831cdd7b725c",
+    "size": 194824640
   },
-  "releaseNotes": "# Hubble 2.0.2\n\n- Modules can provide their own sidebar screens with settings, editable spreadsheets,\n  read-only tables, and live status. Compatible module updates can add or change these\n  screens without another Hubble application update.\n- Button Layout keeps the main sidebar visible. Draft layout edits stay in place\n  when switching screens, and saved presets load when the layout editor opens.\n- Action menus use module-defined labels and groups, including the Ross OGP action\n  types. Settings support live grouped choices and fractional number values.\n- Module settings and spreadsheet rows retain their identities and order through\n  workspace export, import, and clipboard transfer.\n- Developer kit 1.1.0 includes the sidebar-page API guide and a working example.\n\nThis optional update installs Hubble and HubDash together and preserves existing\nworkspaces, module selections, settings, and Companion connections. Ross OGP 1.0.1\nis available separately through module updates."
+  "releaseNotes": "# Hubble 2.0.15\n\n- Typing into the blank Button Matrix row creates a complete editable button\n  immediately. Further edits stay usable while saves are pending.\n- Advanced actions use the module's contextual choices, named routing groups and\n  compound values, matching the Matrix editing workflow.\n- Ross OGP, AJA KUMO, Evertz Quartz and Blackmagic Videohub share offline blue SRC\n  and purple DST values, readable highlighted text and quieter incomplete drafts.\n  Routing and feedback updates avoid repeated configuration and snapshot work.\n- CCC retains camera readouts while cameras are enabled or disabled and allows\n  slower recording feedback before a queued Stop.\n- TALLY Switch restores ON AIR row highlights, including during editing and saves.\n- Companion and Stream Deck layouts have a visible Show button text switch.\n  Companion layout choices keep their text inside collapsed controls.\n- Module-owned spreadsheets retain formulas, clipboard data, declared fill\n  behavior and feedback through immediate edits and ordered background saves.\n- Switching workspaces starts modules against the correct saved documents and\n  preserves active module feedback in the desktop interface.\n- Workspace imports keep their completion message while the spreadsheet reloads.\n\nThis optional update installs Hubble and HubDash together and preserves existing\nworkspaces and settings. Compatible module updates retain their independent\nversions and existing update policies."
 }
