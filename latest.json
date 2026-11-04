@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "2.0.19",
-  "publishedAt": "2026-11-04T22:06:51.000Z",
+  "version": "2.0.20",
+  "publishedAt": "2026-11-04T22:42:31.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.19/Hubble-2.0.19.pkg",
-    "sha256": "495c42b1cad3b04c19e7689235c2e3d9f967d44b58ff9c2b16ed599b8aafc579",
-    "size": 198061866
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.20/Hubble-2.0.20.pkg",
+    "sha256": "5938904d724b14c4e8a3c95a66fe3c873f693d0801c69d4da0b343fe23ddf67c",
+    "size": 198063629
   },
-  "releaseNotes": "Hubble 2.0.19 fixes Button Matrix text editing. Double-click a text cell to show\na visible caret. Clicking inside the editor moves the caret, and Delete and\nBackspace remove characters while you edit.\n\nThis update is optional."
+  "releaseNotes": "# Hubble 2.0.20\n\n- Workspaces affected by a router action save error automatically open for editing again after updating.\n- Select SRC, Select DST, and Take can be saved without a routing group.\n- The bundled Blackmagic Videohub and AJA KUMO modules now publish router readiness without reporting a shared-data error."
 }
