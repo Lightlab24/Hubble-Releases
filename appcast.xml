@@ -2,29 +2,30 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.16</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.18</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.0.16</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.16</link>
-      <pubDate>Tue, 03 Nov 2026 04:48:42 GMT</pubDate>
-      <description>Hubble 2.0.16 keeps feedback preferences editable and makes Cancel immediate.
+      <title>Hubble 2.0.18</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.18</link>
+      <pubDate>Wed, 04 Nov 2026 05:33:16 GMT</pubDate>
+      <description>Hubble 2.0.18 gives each Button Matrix tab its own worksheet and improves
+responsiveness during CCC saves.
 
-- Feedback colors remain visible and editable when feedback is disabled across
-  router, CCC, Cyanview RCP, DIT Browse, LightEncode, and TSL actions. TSL glow
-  preferences also remain editable while feedback is off.
-- Cancel immediately restores the previous Button ID or button type and returns
-  you to editing while the change saves in the background.
-- Consecutive edits stay ordered, and failed cancellations preserve unrelated
-  edits while restoring the confirmation for retry.
+- Matrix tabs have their own row positions, action columns, and layout settings.
+  Button IDs stay stable, and existing formulas migrate to the new sheet
+  coordinates. Workspace export and full-workbook copy preserve sheet layouts.
+- CCC button requests can continue while module document saves finish in order.
+  Compact save confirmations keep the Matrix editor responsive during rapid
+  selections.
+- Modules can provide a full-page sidebar frontend with their own tabs and
+  scrolling. Developer Kit 1.8.0 includes a working example.
 
-The installer includes the updated official module packages. Existing workspace
-data and module update policies are preserved. This update is optional.</description>
-      <sparkle:version>2.0.16</sparkle:version>
-      <sparkle:shortVersionString>2.0.16</sparkle:shortVersionString>
+This update is optional.</description>
+      <sparkle:version>2.0.18</sparkle:version>
+      <sparkle:shortVersionString>2.0.18</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.16/Hubble-2.0.16.pkg" sparkle:edSignature="dixDs528nsNjz4CkvOWKMT5U6YX0c6SwZZRMqTxTMC09mm1cGAGt4Af/DwiXmFS6Pe+5IOAeyAYJmt9hr04uBg==" length="197938297" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.18/Hubble-2.0.18.pkg" sparkle:edSignature="C3rCRXHR3yIAcmxKpo4Pj8in9z2h8nr6C+iMNxl9P3ED6UDwxCa0x1wnX9r9uxjHc5b8GYvE2bZEsrUpo6uRAw==" length="198060366" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
