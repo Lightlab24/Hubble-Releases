@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "2.0.18",
-  "publishedAt": "2026-11-04T05:33:16.000Z",
+  "version": "2.0.19",
+  "publishedAt": "2026-11-04T22:06:51.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.18/Hubble-2.0.18.pkg",
-    "sha256": "41a4a5a9eabbd6e002ee90369ed1dab3d9188378bc547c710fc31000a62b4fab",
-    "size": 198060366
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.19/Hubble-2.0.19.pkg",
+    "sha256": "495c42b1cad3b04c19e7689235c2e3d9f967d44b58ff9c2b16ed599b8aafc579",
+    "size": 198061866
   },
-  "releaseNotes": "Hubble 2.0.18 gives each Button Matrix tab its own worksheet and improves\nresponsiveness during CCC saves.\n\n- Matrix tabs have their own row positions, action columns, and layout settings.\n  Button IDs stay stable, and existing formulas migrate to the new sheet\n  coordinates. Workspace export and full-workbook copy preserve sheet layouts.\n- CCC button requests can continue while module document saves finish in order.\n  Compact save confirmations keep the Matrix editor responsive during rapid\n  selections.\n- Modules can provide a full-page sidebar frontend with their own tabs and\n  scrolling. Developer Kit 1.8.0 includes a working example.\n\nThis update is optional."
+  "releaseNotes": "Hubble 2.0.19 fixes Button Matrix text editing. Double-click a text cell to show\na visible caret. Clicking inside the editor moves the caret, and Delete and\nBackspace remove characters while you edit.\n\nThis update is optional."
 }
