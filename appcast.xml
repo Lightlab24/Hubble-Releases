@@ -2,22 +2,24 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.20</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.21</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.0.20</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.20</link>
-      <pubDate>Wed, 04 Nov 2026 22:42:31 GMT</pubDate>
-      <description># Hubble 2.0.20
+      <title>Hubble 2.0.21</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.0.21</link>
+      <pubDate>Fri, 06 Nov 2026 06:00:29 GMT</pubDate>
+      <description># Hubble 2.0.21
 
-- Workspaces affected by a router action save error automatically open for editing again after updating.
-- Select SRC, Select DST, and Take can be saved without a routing group.
-- The bundled Blackmagic Videohub and AJA KUMO modules now publish router readiness without reporting a shared-data error.</description>
-      <sparkle:version>2.0.20</sparkle:version>
-      <sparkle:shortVersionString>2.0.20</sparkle:shortVersionString>
+- Button Matrix edits appear immediately and save in the background. Rapid cell edits can share one save while keeping separate Undo steps.
+- Buttons and actions can be added, renamed, enabled, disabled, or removed while earlier edits are saving. Deleting a sheet and its buttons now completes in a single transaction.
+- Switching workspaces and restoring a configuration preserve each sheet’s saved dimensions and text size. Shared spreadsheet controls let you adjust text and column visibility.
+- Status Log support copies now include draft expressions and evaluated values, the configuration used for execution, module diagnostics, and recent workbook save timings and rejection reasons.
+- The workbook and Advanced panel use module-defined action fields. Manual update checks are available in the macOS application menu.</description>
+      <sparkle:version>2.0.21</sparkle:version>
+      <sparkle:shortVersionString>2.0.21</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.20/Hubble-2.0.20.pkg" sparkle:edSignature="WvRS3E4TD5Vrzal2YrhgnCZi1hLVFhvFJhusR8QETbbugnFCasWASOUqjhMSlurbuKOa48bBN8f9xxn5nn/DDw==" length="198063629" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.21/Hubble-2.0.21.pkg" sparkle:edSignature="VmWk6BXFVYx2oUzW/eZCdTG2U197hUcOtOcp/Y0IEnhpOAnyPj3grDLy9b0vZBYN+vFQSfg28gdHSnfw/VdYCw==" length="203592709" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>

@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "2.0.20",
-  "publishedAt": "2026-11-04T22:42:31.000Z",
+  "version": "2.0.21",
+  "publishedAt": "2026-11-06T06:00:29.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.20/Hubble-2.0.20.pkg",
-    "sha256": "5938904d724b14c4e8a3c95a66fe3c873f693d0801c69d4da0b343fe23ddf67c",
-    "size": 198063629
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.21/Hubble-2.0.21.pkg",
+    "sha256": "5b677f413ca407324669fa58d895882665db4ac6ef25dd1f4acd94c0f3e6254b",
+    "size": 203592709
   },
-  "releaseNotes": "# Hubble 2.0.20\n\n- Workspaces affected by a router action save error automatically open for editing again after updating.\n- Select SRC, Select DST, and Take can be saved without a routing group.\n- The bundled Blackmagic Videohub and AJA KUMO modules now publish router readiness without reporting a shared-data error."
+  "releaseNotes": "# Hubble 2.0.21\n\n- Button Matrix edits appear immediately and save in the background. Rapid cell edits can share one save while keeping separate Undo steps.\n- Buttons and actions can be added, renamed, enabled, disabled, or removed while earlier edits are saving. Deleting a sheet and its buttons now completes in a single transaction.\n- Switching workspaces and restoring a configuration preserve each sheet’s saved dimensions and text size. Shared spreadsheet controls let you adjust text and column visibility.\n- Status Log support copies now include draft expressions and evaluated values, the configuration used for execution, module diagnostics, and recent workbook save timings and rejection reasons.\n- The workbook and Advanced panel use module-defined action fields. Manual update checks are available in the macOS application menu."
 }
