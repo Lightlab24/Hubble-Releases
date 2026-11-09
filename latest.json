@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "2.0.21",
-  "publishedAt": "2026-11-06T06:00:29.000Z",
+  "version": "2.1.0",
+  "publishedAt": "2026-11-09T14:33:15.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.0.21/Hubble-2.0.21.pkg",
-    "sha256": "5b677f413ca407324669fa58d895882665db4ac6ef25dd1f4acd94c0f3e6254b",
-    "size": 203592709
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.1.0/Hubble-2.1.0.pkg",
+    "sha256": "39f7dc80f52b5ae2646710afded68d3432ab4fc6222aaa8b250d7b08656a233a",
+    "size": 204294958
   },
-  "releaseNotes": "# Hubble 2.0.21\n\n- Button Matrix edits appear immediately and save in the background. Rapid cell edits can share one save while keeping separate Undo steps.\n- Buttons and actions can be added, renamed, enabled, disabled, or removed while earlier edits are saving. Deleting a sheet and its buttons now completes in a single transaction.\n- Switching workspaces and restoring a configuration preserve each sheet’s saved dimensions and text size. Shared spreadsheet controls let you adjust text and column visibility.\n- Status Log support copies now include draft expressions and evaluated values, the configuration used for execution, module diagnostics, and recent workbook save timings and rejection reasons.\n- The workbook and Advanced panel use module-defined action fields. Manual update checks are available in the macOS application menu."
+  "releaseNotes": "# Hubble 2.1.0\n\n**CCC is retired.** Saved CCC data stays in your workspaces and exports, but its actions no longer run and CCC can't be added. Camera control now comes from the Cyanview module, on the Stable channel in the module library. CyanView RCP now only switches cameras.\n\n**Export your configuration first if you might go back.** Hubble 2.0.21 and earlier can't open a configuration that 2.1 has upgraded.\n\n- The Button Matrix is faster. Selecting, editing, Undo and Redo take less time on large workbooks, and Hubble uses less CPU while idle.\n- Edits are safer. Pending edits are kept through a disconnect, a reload or a restart of the save process. If a save is refused, only that edit is undone and a notice says why.\n- Settings, sheets, button layouts and workspaces change immediately and stay editable while earlier changes save.\n- In Button layout, dropping or pasting onto a filled button replaces it, and buttons can be pasted across pages.\n- Copy Entire Spreadsheet keeps module actions whole, and deleting a saved active sheet works.\n- New router connections default to Automatic Take on. A new router starts and lists its actions as soon as it's added, and router settings now live on each module's own page.\n- Modules can show sliders and other shared controls and their own settings pages, and connect automatically to the modules they declare.\n- If the Button Matrix hits an error it rebuilds itself instead of leaving the window blank, and the Status Log says why a failure happened.\n- Bundled modules updated: Ross Ultrix OGP 1.2.13, Blackmagic Videohub 1.1.9, AJA KUMO 1.1.9, Evertz Quartz 1.1.8, TSL 1.2.4, DIT Browse 1.1.5 and CyanView RCP 1.3.0."
 }
