@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "2.1.0",
-  "publishedAt": "2026-11-09T14:33:15.000Z",
+  "version": "2.1.1",
+  "publishedAt": "2026-11-11T21:34:02.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.1.0/Hubble-2.1.0.pkg",
-    "sha256": "39f7dc80f52b5ae2646710afded68d3432ab4fc6222aaa8b250d7b08656a233a",
-    "size": 204294958
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.1.1/Hubble-2.1.1.pkg",
+    "sha256": "39f30db1fe11c001acf14f01c4fe35f0ff7721d2dc846ef32c5d6a5a12c27c24",
+    "size": 204436641
   },
-  "releaseNotes": "# Hubble 2.1.0\n\n**CCC is retired.** Saved CCC data stays in your workspaces and exports, but its actions no longer run and CCC can't be added. Camera control now comes from the Cyanview module, on the Stable channel in the module library. CyanView RCP now only switches cameras.\n\n**Export your configuration first if you might go back.** Hubble 2.0.21 and earlier can't open a configuration that 2.1 has upgraded.\n\n- The Button Matrix is faster. Selecting, editing, Undo and Redo take less time on large workbooks, and Hubble uses less CPU while idle.\n- Edits are safer. Pending edits are kept through a disconnect, a reload or a restart of the save process. If a save is refused, only that edit is undone and a notice says why.\n- Settings, sheets, button layouts and workspaces change immediately and stay editable while earlier changes save.\n- In Button layout, dropping or pasting onto a filled button replaces it, and buttons can be pasted across pages.\n- Copy Entire Spreadsheet keeps module actions whole, and deleting a saved active sheet works.\n- New router connections default to Automatic Take on. A new router starts and lists its actions as soon as it's added, and router settings now live on each module's own page.\n- Modules can show sliders and other shared controls and their own settings pages, and connect automatically to the modules they declare.\n- If the Button Matrix hits an error it rebuilds itself instead of leaving the window blank, and the Status Log says why a failure happened.\n- Bundled modules updated: Ross Ultrix OGP 1.2.13, Blackmagic Videohub 1.1.9, AJA KUMO 1.1.9, Evertz Quartz 1.1.8, TSL 1.2.4, DIT Browse 1.1.5 and CyanView RCP 1.3.0."
+  "releaseNotes": "# Hubble 2.1.1\n\n- **Module icons and colours.** Right-click a module in Module Connections, or click its icon beside its name, to pick an icon (SVG, PNG, JPEG or WebP) and a colour. The colour tints the module's row in Module Connections and in the sidebar. Both are kept on this Mac and don't travel with a workspace.\n- **Modules can bring their own icon.** A module can name a sidebar icon in its package (`module-page-icons-v1`, developer kit 1.8.1-dev.6), and Hubble shows it in full colour.\n- **Module Connections is simpler.** Add modules from one searchable list, and each module's settings are split into Settings, Updates, Data access and Advanced tabs.\n- **Modules own their alerts.** Hubble no longer raises its own alert when a device drops. A module can tell the operator outside HubDash, with its own on/off choices.\n- **Zoom HubDash** with Command-Plus, Command-Minus and Command-0.\n- Service Settings has a guided alerts setup and a simpler Companion section.\n- Fixes: Button Matrix text size applies to every cell of the shown sheet; module pages show live state without a three-second wait; Companion pages open quickly; destination lists typed without spaces keep their names and colour; a removed workspace module whose package is gone is no longer offered."
 }
