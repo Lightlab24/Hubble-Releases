@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "beta",
-  "version": "2.2.1-beta.2",
-  "publishedAt": "2026-11-14T02:42:40.000Z",
+  "version": "2.2.1-beta.3",
+  "publishedAt": "2026-11-14T03:21:03.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.1-beta.2/Hubble-2.2.1-beta.2.pkg",
-    "sha256": "9e22d825c73a43281eac4d00ac5729ef479293cbb07dec02ff1cd24b17e148e4",
-    "size": 204604288
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.1-beta.3/Hubble-2.2.1-beta.3.pkg",
+    "sha256": "e6adce95f2ff6bda90acefe438b95d5f916161eb666eff18f84fbd2451aa0af9",
+    "size": 204604582
   },
-  "releaseNotes": "# Hubble 2.2.1 beta 2\n\n- **No more false \"Hubble could not quit\" warning.** While an update installs, Hubble needs a few seconds to stop its Agent. Hubble used to warn that it could not quit during those seconds, even though the update then installed normally. It now waits, and only asks you to try again if Hubble really can't quit.\n- **A Hubble outside Applications explains why it can't update** (from beta 1). It says where it is running from, and if Applications already has the same or a newer Hubble, **Open Hubble** backs up your workspace and switches to that copy.\n\nThe version doing the updating decides whether the warning appears, so the update to this beta can still show it once. Updates after this one won't.\n\nThis is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble's **Check for Updates…** window."
+  "releaseNotes": "# Hubble 2.2.1 beta 3\n\n- **A test of the beta update.** Nothing else changed since beta 2. Updating from beta 2 to this beta is the first update run by the fixed updater, so Hubble and HubDash should restart on their own without a \"Hubble could not quit\" warning.\n\nThis is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble's **Check for Updates…** window."
 }
