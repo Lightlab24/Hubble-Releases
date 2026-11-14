@@ -3,8 +3,23 @@
   <channel>
     <title>Hubble Updates</title>
     <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.0</link>
-    <description>Stable Hubble updates</description>
+    <description>Stable and beta Hubble updates</description>
     <language>en</language>
+    <item>
+      <title>Hubble 2.2.1-beta.1</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.1-beta.1</link>
+      <pubDate>Sat, 14 Nov 2026 01:53:58 GMT</pubDate>
+      <description># Hubble 2.2.1 beta 1
+
+- **A Hubble outside Applications explains why it can&apos;t update.** Updates always install into the Applications folder. A copy running from anywhere else, such as your user Applications folder, used to install the update next to itself, restart as the old version and show &quot;Hubble could not quit&quot;. It now says where it is running from, and if Applications already has the same or a newer Hubble, **Open Hubble** backs up your workspace and switches to that copy. Otherwise it tells you to move Hubble and HubDash into Applications.
+
+This is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble&apos;s **Check for Updates…** window.</description>
+      <sparkle:version>2.2.1b1</sparkle:version>
+      <sparkle:shortVersionString>2.2.1-beta.1</sparkle:shortVersionString>
+      <sparkle:channel>beta</sparkle:channel>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.1-beta.1/Hubble-2.2.1-beta.1.pkg" sparkle:edSignature="kgRWzd1ExGiErBf5TYJSuSrWYmuby+w1UycMq5SIhhTNkOHfrXtPq93OjF1oCt0Jlg3519sYSSm8gAkdChhlCw==" length="204605385" sparkle:installationType="package" type="application/octet-stream" />
+    </item>
     <item>
       <title>Hubble 2.2.0</title>
       <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.0</link>

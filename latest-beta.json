@@ -1,0 +1,13 @@
+{
+  "formatVersion": 1,
+  "product": "hubble",
+  "channel": "beta",
+  "version": "2.2.1-beta.1",
+  "publishedAt": "2026-11-14T01:53:58.000Z",
+  "archive": {
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.1-beta.1/Hubble-2.2.1-beta.1.pkg",
+    "sha256": "99e80a642208928654f5994c5b06367cbf6a7a2d28989213a13f7b9994c194e7",
+    "size": 204605385
+  },
+  "releaseNotes": "# Hubble 2.2.1 beta 1\n\n- **A Hubble outside Applications explains why it can't update.** Updates always install into the Applications folder. A copy running from anywhere else, such as your user Applications folder, used to install the update next to itself, restart as the old version and show \"Hubble could not quit\". It now says where it is running from, and if Applications already has the same or a newer Hubble, **Open Hubble** backs up your workspace and switches to that copy. Otherwise it tells you to move Hubble and HubDash into Applications.\n\nThis is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble's **Check for Updates…** window."
+}
