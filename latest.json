@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "stable",
-  "version": "2.2.0",
-  "publishedAt": "2026-11-14T00:35:11.000Z",
+  "version": "2.2.1",
+  "publishedAt": "2026-11-14T04:17:14.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.0/Hubble-2.2.0.pkg",
-    "sha256": "3d7d1134ea7329f7232e2efa899ab031e4efa9b050848ad2fdb4d71577cbec55",
-    "size": 204582067
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.1/Hubble-2.2.1.pkg",
+    "sha256": "063244ff4fbb7080a62589405c1deac1a6d2fade0544a3ed3b3106fe22349950",
+    "size": 204604270
   },
-  "releaseNotes": "# Hubble 2.2.0\n\n- **New key looks.** Keys are drawn in Noto Sans SemiBold with text that fits the key. Every button has Background, Outline and Bar colours, and a bar can sit along the top or the bottom. A fuller colour picker shows key previews, named colours and the colours already in your workspace.\n- **Feedback lights each part of a key.** Each feedback row can light the background, outline or bar, and a lit outline or bar can blink or fade. Modules can declare their own triggers with their own looks per row. Right-click an action column to turn its live feedback colours off.\n- **See the whole key while you edit.** The header and a new Live Key column show each button's full key, action cells light part by part, and Button ID can show the key's look.\n- **Hold to confirm.** A module can ask for a press to be held. While you hold, the key fills a disc in the module's colour (Companion plugin 0.3.6).\n- **Guided setup and a new Setup Guide.** A six-step checklist in HubDash takes you from Companion to a working key, including network Stream Decks, placing buttons and a tour of the Button Matrix. The rewritten Setup Guide covers feedback, Cyanview and the current app.\n- **Beta updates.** Turn on **Get beta updates** in the Hubble menu's **Check for Updates…** window to receive betas before they're released. It's off by default. A beta can upgrade your workspace in a way older versions can't open, so export your configuration first.\n- **Choose an older version.** The update window lists every stable release back to 2.0.0.\n- **Routers start with the Routes sheet.** New installs include the current Ross Ultrix, AJA KUMO, Blackmagic Videohub and Evertz Quartz modules, with multi-route staging for one Take.\n- Fixes: fill drags repeat button colours and text size instead of counting them up; Live Key redraws a key whose bar moved to the top; a new action column and arrow keys keep the selected cell clear of the frozen columns; a reload no longer turns an edit queued behind a save into a conflict."
+  "releaseNotes": "# Hubble 2.2.1\n\n- **No more false \"Hubble could not quit\" warning.** While an update installs, Hubble needs a few seconds to stop its Agent, and it used to warn that it could not quit during those seconds even though the update then installed normally. It now waits, and only asks you to try again if Hubble really can't quit. Updating from 2.2.0 or earlier can still show the warning once, because the version being replaced runs the update.\n- **A Hubble outside Applications explains why it can't update.** Updates always install into the Applications folder. A copy running from anywhere else, such as your user Applications folder, used to install the update next to itself and restart as the old version. It now says where it is running from, and if Applications already has the same or a newer Hubble, **Open Hubble** backs up your workspace and switches to that copy. Otherwise it tells you to move Hubble and HubDash into Applications."
 }

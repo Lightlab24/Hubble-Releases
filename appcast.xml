@@ -2,43 +2,21 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.0</link>
-    <description>Stable and beta Hubble updates</description>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.1</link>
+    <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.2.1-beta.3</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.1-beta.3</link>
-      <pubDate>Sat, 14 Nov 2026 03:21:03 GMT</pubDate>
-      <description># Hubble 2.2.1 beta 3
+      <title>Hubble 2.2.1</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.1</link>
+      <pubDate>Sat, 14 Nov 2026 04:17:14 GMT</pubDate>
+      <description># Hubble 2.2.1
 
-- **A test of the beta update.** Nothing else changed since beta 2. Updating from beta 2 to this beta is the first update run by the fixed updater, so Hubble and HubDash should restart on their own without a &quot;Hubble could not quit&quot; warning.
-
-This is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble&apos;s **Check for Updates…** window.</description>
-      <sparkle:version>2.2.1b3</sparkle:version>
-      <sparkle:shortVersionString>2.2.1-beta.3</sparkle:shortVersionString>
-      <sparkle:channel>beta</sparkle:channel>
+- **No more false &quot;Hubble could not quit&quot; warning.** While an update installs, Hubble needs a few seconds to stop its Agent, and it used to warn that it could not quit during those seconds even though the update then installed normally. It now waits, and only asks you to try again if Hubble really can&apos;t quit. Updating from 2.2.0 or earlier can still show the warning once, because the version being replaced runs the update.
+- **A Hubble outside Applications explains why it can&apos;t update.** Updates always install into the Applications folder. A copy running from anywhere else, such as your user Applications folder, used to install the update next to itself and restart as the old version. It now says where it is running from, and if Applications already has the same or a newer Hubble, **Open Hubble** backs up your workspace and switches to that copy. Otherwise it tells you to move Hubble and HubDash into Applications.</description>
+      <sparkle:version>2.2.1</sparkle:version>
+      <sparkle:shortVersionString>2.2.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.1-beta.3/Hubble-2.2.1-beta.3.pkg" sparkle:edSignature="pg+eEa3o7ST8jHYRBENSRbhTInNX8VG+puKQ35dpa1UIl3H+kWn3j55zXrTjAPD+1Qzjoo/58trI8aAJymxUAA==" length="204604582" sparkle:installationType="package" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Hubble 2.2.0</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.0</link>
-      <pubDate>Sat, 14 Nov 2026 00:35:11 GMT</pubDate>
-      <description># Hubble 2.2.0
-
-- **New key looks.** Keys are drawn in Noto Sans SemiBold with text that fits the key. Every button has Background, Outline and Bar colours, and a bar can sit along the top or the bottom. A fuller colour picker shows key previews, named colours and the colours already in your workspace.
-- **Feedback lights each part of a key.** Each feedback row can light the background, outline or bar, and a lit outline or bar can blink or fade. Modules can declare their own triggers with their own looks per row. Right-click an action column to turn its live feedback colours off.
-- **See the whole key while you edit.** The header and a new Live Key column show each button&apos;s full key, action cells light part by part, and Button ID can show the key&apos;s look.
-- **Hold to confirm.** A module can ask for a press to be held. While you hold, the key fills a disc in the module&apos;s colour (Companion plugin 0.3.6).
-- **Guided setup and a new Setup Guide.** A six-step checklist in HubDash takes you from Companion to a working key, including network Stream Decks, placing buttons and a tour of the Button Matrix. The rewritten Setup Guide covers feedback, Cyanview and the current app.
-- **Beta updates.** Turn on **Get beta updates** in the Hubble menu&apos;s **Check for Updates…** window to receive betas before they&apos;re released. It&apos;s off by default. A beta can upgrade your workspace in a way older versions can&apos;t open, so export your configuration first.
-- **Choose an older version.** The update window lists every stable release back to 2.0.0.
-- **Routers start with the Routes sheet.** New installs include the current Ross Ultrix, AJA KUMO, Blackmagic Videohub and Evertz Quartz modules, with multi-route staging for one Take.
-- Fixes: fill drags repeat button colours and text size instead of counting them up; Live Key redraws a key whose bar moved to the top; a new action column and arrow keys keep the selected cell clear of the frozen columns; a reload no longer turns an edit queued behind a save into a conflict.</description>
-      <sparkle:version>2.2.0</sparkle:version>
-      <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.0/Hubble-2.2.0.pkg" sparkle:edSignature="WnPae3K2SMXna6OZLAUttFILWENoCzQYs+bMnVHZj+s87e4qpi486At8rNy2rMycEzVvalMcS3OlP17YeJV/DA==" length="204582067" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.1/Hubble-2.2.1.pkg" sparkle:edSignature="8OmJ/i463MLAmoPIGb1dOwrQsuWjYLtKJZcga/FdXliQwPuR+3X6OAHzxIjgl79eiqDt3HTEwfxpivMmE1jQBw==" length="204604270" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
