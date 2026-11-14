@@ -6,19 +6,22 @@
     <description>Stable and beta Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.2.1-beta.1</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.1-beta.1</link>
-      <pubDate>Sat, 14 Nov 2026 01:53:58 GMT</pubDate>
-      <description># Hubble 2.2.1 beta 1
+      <title>Hubble 2.2.1-beta.2</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.1-beta.2</link>
+      <pubDate>Sat, 14 Nov 2026 02:42:40 GMT</pubDate>
+      <description># Hubble 2.2.1 beta 2
 
-- **A Hubble outside Applications explains why it can&apos;t update.** Updates always install into the Applications folder. A copy running from anywhere else, such as your user Applications folder, used to install the update next to itself, restart as the old version and show &quot;Hubble could not quit&quot;. It now says where it is running from, and if Applications already has the same or a newer Hubble, **Open Hubble** backs up your workspace and switches to that copy. Otherwise it tells you to move Hubble and HubDash into Applications.
+- **No more false &quot;Hubble could not quit&quot; warning.** While an update installs, Hubble needs a few seconds to stop its Agent. Hubble used to warn that it could not quit during those seconds, even though the update then installed normally. It now waits, and only asks you to try again if Hubble really can&apos;t quit.
+- **A Hubble outside Applications explains why it can&apos;t update** (from beta 1). It says where it is running from, and if Applications already has the same or a newer Hubble, **Open Hubble** backs up your workspace and switches to that copy.
+
+The version doing the updating decides whether the warning appears, so the update to this beta can still show it once. Updates after this one won&apos;t.
 
 This is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble&apos;s **Check for Updates…** window.</description>
-      <sparkle:version>2.2.1b1</sparkle:version>
-      <sparkle:shortVersionString>2.2.1-beta.1</sparkle:shortVersionString>
+      <sparkle:version>2.2.1b2</sparkle:version>
+      <sparkle:shortVersionString>2.2.1-beta.2</sparkle:shortVersionString>
       <sparkle:channel>beta</sparkle:channel>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.1-beta.1/Hubble-2.2.1-beta.1.pkg" sparkle:edSignature="kgRWzd1ExGiErBf5TYJSuSrWYmuby+w1UycMq5SIhhTNkOHfrXtPq93OjF1oCt0Jlg3519sYSSm8gAkdChhlCw==" length="204605385" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.1-beta.2/Hubble-2.2.1-beta.2.pkg" sparkle:edSignature="qY9hg5OW3oK2IQkjb71RMCSZ14WGimS/k8KqsjAGhsRReUhS8ulGXmATB7iu8A2f8bo+ewR5xxXKqP3ytybiDg==" length="204604288" sparkle:installationType="package" type="application/octet-stream" />
     </item>
     <item>
       <title>Hubble 2.2.0</title>
