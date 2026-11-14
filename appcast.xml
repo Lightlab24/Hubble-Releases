@@ -2,26 +2,28 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.1.1</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.0</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.1.1</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.1.1</link>
-      <pubDate>Wed, 11 Nov 2026 21:34:02 GMT</pubDate>
-      <description># Hubble 2.1.1
+      <title>Hubble 2.2.0</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.0</link>
+      <pubDate>Sat, 14 Nov 2026 00:35:11 GMT</pubDate>
+      <description># Hubble 2.2.0
 
-- **Module icons and colours.** Right-click a module in Module Connections, or click its icon beside its name, to pick an icon (SVG, PNG, JPEG or WebP) and a colour. The colour tints the module&apos;s row in Module Connections and in the sidebar. Both are kept on this Mac and don&apos;t travel with a workspace.
-- **Modules can bring their own icon.** A module can name a sidebar icon in its package (`module-page-icons-v1`, developer kit 1.8.1-dev.6), and Hubble shows it in full colour.
-- **Module Connections is simpler.** Add modules from one searchable list, and each module&apos;s settings are split into Settings, Updates, Data access and Advanced tabs.
-- **Modules own their alerts.** Hubble no longer raises its own alert when a device drops. A module can tell the operator outside HubDash, with its own on/off choices.
-- **Zoom HubDash** with Command-Plus, Command-Minus and Command-0.
-- Service Settings has a guided alerts setup and a simpler Companion section.
-- Fixes: Button Matrix text size applies to every cell of the shown sheet; module pages show live state without a three-second wait; Companion pages open quickly; destination lists typed without spaces keep their names and colour; a removed workspace module whose package is gone is no longer offered.</description>
-      <sparkle:version>2.1.1</sparkle:version>
-      <sparkle:shortVersionString>2.1.1</sparkle:shortVersionString>
+- **New key looks.** Keys are drawn in Noto Sans SemiBold with text that fits the key. Every button has Background, Outline and Bar colours, and a bar can sit along the top or the bottom. A fuller colour picker shows key previews, named colours and the colours already in your workspace.
+- **Feedback lights each part of a key.** Each feedback row can light the background, outline or bar, and a lit outline or bar can blink or fade. Modules can declare their own triggers with their own looks per row. Right-click an action column to turn its live feedback colours off.
+- **See the whole key while you edit.** The header and a new Live Key column show each button&apos;s full key, action cells light part by part, and Button ID can show the key&apos;s look.
+- **Hold to confirm.** A module can ask for a press to be held. While you hold, the key fills a disc in the module&apos;s colour (Companion plugin 0.3.6).
+- **Guided setup and a new Setup Guide.** A six-step checklist in HubDash takes you from Companion to a working key, including network Stream Decks, placing buttons and a tour of the Button Matrix. The rewritten Setup Guide covers feedback, Cyanview and the current app.
+- **Beta updates.** Turn on **Get beta updates** in the Hubble menu&apos;s **Check for Updates…** window to receive betas before they&apos;re released. It&apos;s off by default. A beta can upgrade your workspace in a way older versions can&apos;t open, so export your configuration first.
+- **Choose an older version.** The update window lists every stable release back to 2.0.0.
+- **Routers start with the Routes sheet.** New installs include the current Ross Ultrix, AJA KUMO, Blackmagic Videohub and Evertz Quartz modules, with multi-route staging for one Take.
+- Fixes: fill drags repeat button colours and text size instead of counting them up; Live Key redraws a key whose bar moved to the top; a new action column and arrow keys keep the selected cell clear of the frozen columns; a reload no longer turns an edit queued behind a save into a conflict.</description>
+      <sparkle:version>2.2.0</sparkle:version>
+      <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.1.1/Hubble-2.1.1.pkg" sparkle:edSignature="79fZx131Ix/X9vEFo5NTY3rYR7EemcYDa9XpuPTOv7STc4nu/iCVt5SLrzai1DmMYEP/c0KWv1G9+gRTeMfsCg==" length="204436641" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.0/Hubble-2.2.0.pkg" sparkle:edSignature="WnPae3K2SMXna6OZLAUttFILWENoCzQYs+bMnVHZj+s87e4qpi486At8rNy2rMycEzVvalMcS3OlP17YeJV/DA==" length="204582067" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
