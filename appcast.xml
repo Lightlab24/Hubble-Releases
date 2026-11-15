@@ -2,21 +2,25 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.1</link>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.2</link>
     <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.2.1</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.1</link>
-      <pubDate>Sat, 14 Nov 2026 04:17:14 GMT</pubDate>
-      <description># Hubble 2.2.1
+      <title>Hubble 2.2.2</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.2</link>
+      <pubDate>Sun, 15 Nov 2026 01:06:39 GMT</pubDate>
+      <description># Hubble 2.2.2
 
-- **No more false &quot;Hubble could not quit&quot; warning.** While an update installs, Hubble needs a few seconds to stop its Agent, and it used to warn that it could not quit during those seconds even though the update then installed normally. It now waits, and only asks you to try again if Hubble really can&apos;t quit. Updating from 2.2.0 or earlier can still show the warning once, because the version being replaced runs the update.
-- **A Hubble outside Applications explains why it can&apos;t update.** Updates always install into the Applications folder. A copy running from anywhere else, such as your user Applications folder, used to install the update next to itself and restart as the old version. It now says where it is running from, and if Applications already has the same or a newer Hubble, **Open Hubble** backs up your workspace and switches to that copy. Otherwise it tells you to move Hubble and HubDash into Applications.</description>
-      <sparkle:version>2.2.1</sparkle:version>
-      <sparkle:shortVersionString>2.2.1</sparkle:shortVersionString>
+- **One look for every on/off setting.** True/false cells in the Button Matrix, module page tables and module sheets, and every checkbox in settings and dialogs, now show the guided setup checklist&apos;s mark: a green circle with a white tick when on and an empty ring when off. Every on/off switch now looks like the Module Connections switch, with On or Off under it. The ticks in column menus are unchanged.
+- **Enter moves down on every Button Matrix cell.** Action cells, router SRC and DST, Text Size and other list cells now move to the cell below on Enter, like other spreadsheets. Typing, Option, a double-click or the cell&apos;s arrow still opens the list, and Enter in an open list still picks the highlighted choice. Module spreadsheets are unchanged.
+- **Module updates on the Module Connections page.** A Module updates group at the start of the Companion plugin bar sets the automatic-update default that modules follow unless they have their own choice, shows when the catalog was last read, and has Check for module updates. A module&apos;s Updates tab keeps its own version controls. The Data access tabs are gone: Allow access to other modules&apos; data is now the last section of Settings, and every module can read the Button Matrix&apos;s shared columns without a grant.
+- **A clearer Import workspace dialog.** It has three mode tabs, one card per workspace with its modules folded away, a From the file or Copy current choice for each module, and a footer that says what will happen or what still needs a choice. Spreadsheet only lists the modules the buttons use.
+- **Easier keyboard use.** Ctrl+Tab and Ctrl+Shift+Tab move between the sidebar, toolbar, grid, sheet tabs, Advanced action panel and Variables. The Columns menu steps one column per arrow key, and Option-Up or Option-Down moves the highlighted column. Add Action Column starts in its first field and returns to the grid when closed. Connection fields and Advanced text areas show a focus ring, and Tab no longer lands on the closed sidebar.
+- **Smaller fixes.** The Collapsed fields submenu stays open while you tick several fields. Fill Module Connection Down is gone from the action column menu. HubDash no longer redraws for every log line, small buttons are easier to hit, and the window no longer flashes two shades at launch.</description>
+      <sparkle:version>2.2.2</sparkle:version>
+      <sparkle:shortVersionString>2.2.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.1/Hubble-2.2.1.pkg" sparkle:edSignature="8OmJ/i463MLAmoPIGb1dOwrQsuWjYLtKJZcga/FdXliQwPuR+3X6OAHzxIjgl79eiqDt3HTEwfxpivMmE1jQBw==" length="204604270" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.2/Hubble-2.2.2.pkg" sparkle:edSignature="ghJDoeDf2/B3xz+Q93wNUQqTngOH64byd/RRa/kz0oE78kKidiabRoOAvxPoWjJFmUSImCZwaNlEjfPCmJHCAg==" length="204603727" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
