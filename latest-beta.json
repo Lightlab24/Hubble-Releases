@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "beta",
-  "version": "2.2.3-beta.5",
-  "publishedAt": "2026-11-15T21:50:47.000Z",
+  "version": "2.2.3-beta.6",
+  "publishedAt": "2026-11-15T23:46:37.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.3-beta.5/Hubble-2.2.3-beta.5.pkg",
-    "sha256": "d9963775f2eb91c9f710614eebe3f4ba2dab5b2d5232df3d36130973f04a2471",
-    "size": 204643843
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.3-beta.6/Hubble-2.2.3-beta.6.pkg",
+    "sha256": "aba091424e0bacc55bf340d552fd1dbb35112516b5b487ff4a9ba6cfed133406",
+    "size": 204695686
   },
-  "releaseNotes": "# Hubble 2.2.3 beta 5\n\n- **Every key catches the light.** Buttons now have the same soft shading as the Live Key everywhere they're drawn: lighter at the top and darker at the bottom, with a thin light edge along the bar and a gentle glow from a bar that feedback has lit.\n  - **Stream Deck keys through Companion** get the shading over their own colour, with Companion's text on top.\n  - **Button ID cells** in the Button Matrix get it when **Show Key Look** is on, under the ID's text.\n  - **Lit action cells** get the bar's edge and glow.\n- Stream Deck keys that Hubble drives directly, and the Live Key itself, already looked this way and are unchanged.\n\nNothing in your configuration changes. This beta opens the same configuration as 2.2.3 beta 4.\n\nThis is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble's **Check for Updates…** window."
+  "releaseNotes": "# Hubble 2.2.3 beta 6\n\n- **Button layout works with Companion 5.1.** Bitfocus Companion 5.1 changed how buttons are removed, moved and copied, and those three actions failed in **Button layout** on Companion 5.1. They work now. Companion 4.3 and 5.0 work as before.\n- **Keys Hubble places on Companion 5.1 can be edited.** Companion 5.1 links a key placed from a preset to that preset and won't let its actions be changed. **Fill Companion Page** and new keys in Button layout are now placed as ordinary buttons, so their Button IDs and long presses can be changed.\n  - Keys that are already linked, placed by an earlier Hubble on Companion 5.1 or dragged from Companion's own preset list, are turned into ordinary buttons the first time Hubble needs to change their IDs or long presses. Their actions, feedback and look stay the same.\n- **The hold disc is set up on Companion 5.** Hubble didn't recognise that the Hubble module in Companion 5.0 and 5.1 supports the disc that fills while a long-press key is held, so those keys never got it. They do now.\n- **Editing a long-press key's Button ID saves.** Changing the first long-press ID of a key in Button layout failed with \"Companion did not confirm the saved Button ID\". It now saves on every supported Companion version.\n\nNothing in your configuration changes. This beta opens the same configuration as 2.2.3 beta 5. The Hubble module in Companion is unchanged, so there is nothing to reinstall there.\n\nThis is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble's **Check for Updates…** window."
 }

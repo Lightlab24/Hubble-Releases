@@ -6,25 +6,25 @@
     <description>Stable and beta Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.2.3-beta.5</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.3-beta.5</link>
-      <pubDate>Sun, 15 Nov 2026 21:50:47 GMT</pubDate>
-      <description># Hubble 2.2.3 beta 5
+      <title>Hubble 2.2.3-beta.6</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.3-beta.6</link>
+      <pubDate>Sun, 15 Nov 2026 23:46:37 GMT</pubDate>
+      <description># Hubble 2.2.3 beta 6
 
-- **Every key catches the light.** Buttons now have the same soft shading as the Live Key everywhere they&apos;re drawn: lighter at the top and darker at the bottom, with a thin light edge along the bar and a gentle glow from a bar that feedback has lit.
-  - **Stream Deck keys through Companion** get the shading over their own colour, with Companion&apos;s text on top.
-  - **Button ID cells** in the Button Matrix get it when **Show Key Look** is on, under the ID&apos;s text.
-  - **Lit action cells** get the bar&apos;s edge and glow.
-- Stream Deck keys that Hubble drives directly, and the Live Key itself, already looked this way and are unchanged.
+- **Button layout works with Companion 5.1.** Bitfocus Companion 5.1 changed how buttons are removed, moved and copied, and those three actions failed in **Button layout** on Companion 5.1. They work now. Companion 4.3 and 5.0 work as before.
+- **Keys Hubble places on Companion 5.1 can be edited.** Companion 5.1 links a key placed from a preset to that preset and won&apos;t let its actions be changed. **Fill Companion Page** and new keys in Button layout are now placed as ordinary buttons, so their Button IDs and long presses can be changed.
+  - Keys that are already linked, placed by an earlier Hubble on Companion 5.1 or dragged from Companion&apos;s own preset list, are turned into ordinary buttons the first time Hubble needs to change their IDs or long presses. Their actions, feedback and look stay the same.
+- **The hold disc is set up on Companion 5.** Hubble didn&apos;t recognise that the Hubble module in Companion 5.0 and 5.1 supports the disc that fills while a long-press key is held, so those keys never got it. They do now.
+- **Editing a long-press key&apos;s Button ID saves.** Changing the first long-press ID of a key in Button layout failed with &quot;Companion did not confirm the saved Button ID&quot;. It now saves on every supported Companion version.
 
-Nothing in your configuration changes. This beta opens the same configuration as 2.2.3 beta 4.
+Nothing in your configuration changes. This beta opens the same configuration as 2.2.3 beta 5. The Hubble module in Companion is unchanged, so there is nothing to reinstall there.
 
 This is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble&apos;s **Check for Updates…** window.</description>
-      <sparkle:version>2.2.3b5</sparkle:version>
-      <sparkle:shortVersionString>2.2.3-beta.5</sparkle:shortVersionString>
+      <sparkle:version>2.2.3b6</sparkle:version>
+      <sparkle:shortVersionString>2.2.3-beta.6</sparkle:shortVersionString>
       <sparkle:channel>beta</sparkle:channel>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.3-beta.5/Hubble-2.2.3-beta.5.pkg" sparkle:edSignature="zNjrNa6AhJ5QAxZMMWM/gYU30UWmHE4Zqu1I/W+0qtDoGi8oUrFh9l2H9nuu3tQGU4Znzr+cxUdIS3oA06bjAw==" length="204643843" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.3-beta.6/Hubble-2.2.3-beta.6.pkg" sparkle:edSignature="bVmSXpu0ZtVv//FHgjE+7cQh4tQySk0+3eNUz+jr98dK3E7+3YSf0e6JnqKv5GXxCXwdHK+9xOLByCDvPvBjAw==" length="204695686" sparkle:installationType="package" type="application/octet-stream" />
     </item>
     <item>
       <title>Hubble 2.2.2</title>
