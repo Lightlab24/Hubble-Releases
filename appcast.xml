@@ -3,8 +3,23 @@
   <channel>
     <title>Hubble Updates</title>
     <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.2</link>
-    <description>Stable Hubble updates</description>
+    <description>Stable and beta Hubble updates</description>
     <language>en</language>
+    <item>
+      <title>Hubble 2.2.3-beta.1</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.3-beta.1</link>
+      <pubDate>Sun, 15 Nov 2026 15:46:31 GMT</pubDate>
+      <description># Hubble 2.2.3 beta 1
+
+- **Wide module logos in the sidebar.** A module can now give a wide logo, such as a wordmark, as well as its square icon. The expanded sidebar shows the wide logo beside the module&apos;s name; the collapsed sidebar keeps the square icon. An icon you picked for a module still takes its place. AJA FS-HDR 2.1.3 uses this for the full AJA logo, with the AJA &quot;A&quot; when the sidebar is collapsed.
+
+This is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble&apos;s **Check for Updates…** window.</description>
+      <sparkle:version>2.2.3b1</sparkle:version>
+      <sparkle:shortVersionString>2.2.3-beta.1</sparkle:shortVersionString>
+      <sparkle:channel>beta</sparkle:channel>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.3-beta.1/Hubble-2.2.3-beta.1.pkg" sparkle:edSignature="ZB/+iOzfgnjyhqOjylb5kxaRG0RNzPClYLV8fIpGa/OQWzKvdd+3E95f6IDn7PMCwQJIJfzgNz2immqVYgRSAw==" length="204613059" sparkle:installationType="package" type="application/octet-stream" />
+    </item>
     <item>
       <title>Hubble 2.2.2</title>
       <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.2</link>
