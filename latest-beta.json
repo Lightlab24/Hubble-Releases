@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "beta",
-  "version": "2.2.3-beta.3",
-  "publishedAt": "2026-11-15T16:33:03.000Z",
+  "version": "2.2.3-beta.4",
+  "publishedAt": "2026-11-15T18:38:06.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.3-beta.3/Hubble-2.2.3-beta.3.pkg",
-    "sha256": "8d959a74cffc1cb8c3fc243b3e5ed6c4cf1cdc71c8ed701c4ad443dd53af3d35",
-    "size": 204615738
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.3-beta.4/Hubble-2.2.3-beta.4.pkg",
+    "sha256": "7d23d084dc84f1fccff95afd70b70b2656b2b9facd6a817fc846c5b29a69d506",
+    "size": 204647043
   },
-  "releaseNotes": "# Hubble 2.2.3 beta 3\n\n- **The Button layout editor shows what the Button Matrix shows.** Selecting a button on the **Button layout** page listed actions the button doesn't have: every blank cell in a module's column counted as an action, and a retired module such as CCC appeared on every button as an action and as a feedback. The editor now lists only the cells that are filled in on that button's Button Matrix row, leaves retired modules out, and names each action by its Button Matrix column.\n- **Feedbacks lists module feedback.** A module's triggers, such as Cyanview's Recording and Offline, appear under **Feedbacks** while that row's feedback is on.\n- **The editor's colours open the Button Matrix colour popup.** A feedback colour offers **Light up**, a module's trigger cell shows its triggers and edits how each one lights the key, and every popup draws the key live. **Button appearance** adds **Outline color** and **Bar color**.\n- **Updating a module yourself clears its waiting automatic update** (from beta 2).\n- **Wide module logos in the sidebar** (from beta 1).\n\nThis is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble's **Check for Updates…** window."
+  "releaseNotes": "# Hubble 2.2.3 beta 4\n\n- **CCC is gone from your workspaces.** CCC was retired in 2.1.0 and its saved data stayed behind. The first time this version opens your configuration it removes that data from every workspace: CCC's **Retired** columns in the Button Matrix with the values in them, CCC actions and feedbacks on Advanced buttons, the saved camera list, and CCC's entry and data permissions among your modules. Every other column, value, formula, sheet and button stays as it was. Nothing changes in what your buttons do, because CCC's actions haven't run since 2.1.0.\n- **Older files import without CCC.** A configuration file, workspace file or copied spreadsheet from an older version still imports. Its CCC columns and camera list are left out.\n- **A change left waiting is cancelled.** If Hubble was quit with a confirmation dialog still open in a workspace that held CCC data, that one unconfirmed change is cancelled during the update, the same as pressing **Cancel**.\n- **Formulas follow their cells past a module's column.** Deleting, adding or moving a module's action column moved formulas that point to cells on its right by the wrong number of columns. They now keep pointing at the same cells.\n\n**This update changes your configuration in a way older versions can't open,** including 2.2.2 and the earlier 2.2.3 betas. Export your configuration first if you might go back.\n\nThis is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble's **Check for Updates…** window."
 }
