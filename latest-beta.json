@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "beta",
-  "version": "2.2.3-beta.2",
-  "publishedAt": "2026-11-15T16:14:12.000Z",
+  "version": "2.2.3-beta.3",
+  "publishedAt": "2026-11-15T16:33:03.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.3-beta.2/Hubble-2.2.3-beta.2.pkg",
-    "sha256": "38c478a31e30935e5bbf3d3fde6f3c78db7153bd93fda59522f17e44b326ce4a",
-    "size": 204613126
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.3-beta.3/Hubble-2.2.3-beta.3.pkg",
+    "sha256": "8d959a74cffc1cb8c3fc243b3e5ed6c4cf1cdc71c8ed701c4ad443dd53af3d35",
+    "size": 204615738
   },
-  "releaseNotes": "# Hubble 2.2.3 beta 2\n\n- **Updating a module yourself clears its waiting automatic update.** With **Update automatically** on, a new module version downloads in the background and installs the next time Hubble starts. Choosing **Update now**, another version or **Roll back** used to leave that download waiting, so the module's **Updates** tab said a version was ready for the next startup even when it was already running, and after a restart said the automatic update was blocked. The version you choose now replaces the waiting update, and one left over from an earlier version is cleared the next time Hubble starts.\n- **Wide module logos in the sidebar** (from beta 1). A module can give a wide logo, such as a wordmark, beside its name in the expanded sidebar, and keep its square icon when the sidebar is collapsed.\n\nThis is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble's **Check for Updates…** window."
+  "releaseNotes": "# Hubble 2.2.3 beta 3\n\n- **The Button layout editor shows what the Button Matrix shows.** Selecting a button on the **Button layout** page listed actions the button doesn't have: every blank cell in a module's column counted as an action, and a retired module such as CCC appeared on every button as an action and as a feedback. The editor now lists only the cells that are filled in on that button's Button Matrix row, leaves retired modules out, and names each action by its Button Matrix column.\n- **Feedbacks lists module feedback.** A module's triggers, such as Cyanview's Recording and Offline, appear under **Feedbacks** while that row's feedback is on.\n- **The editor's colours open the Button Matrix colour popup.** A feedback colour offers **Light up**, a module's trigger cell shows its triggers and edits how each one lights the key, and every popup draws the key live. **Button appearance** adds **Outline color** and **Bar color**.\n- **Updating a module yourself clears its waiting automatic update** (from beta 2).\n- **Wide module logos in the sidebar** (from beta 1).\n\nThis is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble's **Check for Updates…** window."
 }
