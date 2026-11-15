@@ -6,24 +6,25 @@
     <description>Stable and beta Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.2.3-beta.4</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.3-beta.4</link>
-      <pubDate>Sun, 15 Nov 2026 18:38:06 GMT</pubDate>
-      <description># Hubble 2.2.3 beta 4
+      <title>Hubble 2.2.3-beta.5</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.3-beta.5</link>
+      <pubDate>Sun, 15 Nov 2026 21:50:47 GMT</pubDate>
+      <description># Hubble 2.2.3 beta 5
 
-- **CCC is gone from your workspaces.** CCC was retired in 2.1.0 and its saved data stayed behind. The first time this version opens your configuration it removes that data from every workspace: CCC&apos;s **Retired** columns in the Button Matrix with the values in them, CCC actions and feedbacks on Advanced buttons, the saved camera list, and CCC&apos;s entry and data permissions among your modules. Every other column, value, formula, sheet and button stays as it was. Nothing changes in what your buttons do, because CCC&apos;s actions haven&apos;t run since 2.1.0.
-- **Older files import without CCC.** A configuration file, workspace file or copied spreadsheet from an older version still imports. Its CCC columns and camera list are left out.
-- **A change left waiting is cancelled.** If Hubble was quit with a confirmation dialog still open in a workspace that held CCC data, that one unconfirmed change is cancelled during the update, the same as pressing **Cancel**.
-- **Formulas follow their cells past a module&apos;s column.** Deleting, adding or moving a module&apos;s action column moved formulas that point to cells on its right by the wrong number of columns. They now keep pointing at the same cells.
+- **Every key catches the light.** Buttons now have the same soft shading as the Live Key everywhere they&apos;re drawn: lighter at the top and darker at the bottom, with a thin light edge along the bar and a gentle glow from a bar that feedback has lit.
+  - **Stream Deck keys through Companion** get the shading over their own colour, with Companion&apos;s text on top.
+  - **Button ID cells** in the Button Matrix get it when **Show Key Look** is on, under the ID&apos;s text.
+  - **Lit action cells** get the bar&apos;s edge and glow.
+- Stream Deck keys that Hubble drives directly, and the Live Key itself, already looked this way and are unchanged.
 
-**This update changes your configuration in a way older versions can&apos;t open,** including 2.2.2 and the earlier 2.2.3 betas. Export your configuration first if you might go back.
+Nothing in your configuration changes. This beta opens the same configuration as 2.2.3 beta 4.
 
 This is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble&apos;s **Check for Updates…** window.</description>
-      <sparkle:version>2.2.3b4</sparkle:version>
-      <sparkle:shortVersionString>2.2.3-beta.4</sparkle:shortVersionString>
+      <sparkle:version>2.2.3b5</sparkle:version>
+      <sparkle:shortVersionString>2.2.3-beta.5</sparkle:shortVersionString>
       <sparkle:channel>beta</sparkle:channel>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.3-beta.4/Hubble-2.2.3-beta.4.pkg" sparkle:edSignature="cCllwXbi2GpDnveq79AGw0e8ACRb671Bx+lNx5yCciOUgAFircOJ0l3uv7uEVbC/gQtsKNY6nDHPxuMzy4icBA==" length="204647043" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.3-beta.5/Hubble-2.2.3-beta.5.pkg" sparkle:edSignature="zNjrNa6AhJ5QAxZMMWM/gYU30UWmHE4Zqu1I/W+0qtDoGi8oUrFh9l2H9nuu3tQGU4Znzr+cxUdIS3oA06bjAw==" length="204643843" sparkle:installationType="package" type="application/octet-stream" />
     </item>
     <item>
       <title>Hubble 2.2.2</title>
