@@ -6,28 +6,24 @@
     <description>Stable and beta Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.2.3-beta.7</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.3-beta.7</link>
-      <pubDate>Mon, 16 Nov 2026 22:12:47 GMT</pubDate>
-      <description># Hubble 2.2.3 beta 7
+      <title>Hubble 2.2.3-beta.8</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.3-beta.8</link>
+      <pubDate>Tue, 17 Nov 2026 16:32:17 GMT</pubDate>
+      <description># Hubble 2.2.3 beta 8
 
-- **Wide key faces on a Stream Deck Studio.** On Companion 5, Hubble now draws each key face in the shape of the device chosen for its page in **Button layout**. On a **Stream Deck Studio** page the face is wide and fills the Studio&apos;s wider keys from edge to edge. Before, it was drawn narrower and slightly soft, and it dimmed the key&apos;s text.
-  - Pages for other decks get square faces drawn at that deck&apos;s own key size (96 × 96 on an XL), so they stay sharp. A page with no device chosen uses 96 × 96.
-  - To draw every page wide, open the Hubble connection&apos;s settings in Companion and set **Key shape** to **Stream Deck Studio (wide) on every page**.
-  - Companion 4 draws every key square, so on Companion 4 the faces look the same as before.
-- **Button layout shows a Stream Deck Studio page with wide keys.** The keys are as wide as they are on the device. Dials stay round.
-- **Updating the Hubble module in Companion no longer stops timed keys from syncing.** When Companion updated the Hubble module, it marked every Hubble action as upgraded. Hubble read that as someone having edited the keys, so it stopped saving workbook changes to keys with long presses and showed &quot;A managed Hubble action was edited&quot;. Hubble now ignores that mark, and it still notices a real edit.
+- **Beta modules are marked Beta in the sidebar.** A module page running a beta version from the module catalog now shows the same **Beta** label as TALLY Switch, and the label goes once the module runs a stable version. Modules you built or imported yourself aren&apos;t marked.
+- **New on the module beta channel: Flanders.** Press keys on Flanders Scientific monitors from Hubble buttons. Add it from **Module Connections** → **Add module** → **Flanders** after **Check for module updates**. Its **Flanders** page lists your monitors, and each Button Matrix row picks a monitor and a key (inputs, F1 to F5, the menu keys and volume). Before each key Hubble checks this Mac for other apps connected to that monitor, such as LiveGrade, and holds the key back rather than risk disconnecting them. Flanders also works on earlier Hubble versions from 2.2.0; only the Beta label needs this one.
+- **Companion setup works on early Companion 5.0 builds.** Companion 5.0 development builds from before July 2, 2026 stopped Hubble&apos;s connection setup and Button layout with an error about `watchEdit`. Hubble now uses the call those builds understand.
+- **A slider in a sheet cell keeps its length while you drag.** The number beside it no longer changes the track&apos;s length as it grows or shrinks, so the handle stays under the pointer. FS-HDR&apos;s Framing sliders were the most affected.
 
-This beta includes version **0.3.7** of the Hubble module for Companion. To get the wide faces, choose **Install / Reinstall** in **Module Connections** or **Button layout**, or **Update in Companion** in Hubble → **Service Settings…**. When the module updates, Companion adds a **Key page** field to each Hubble key&apos;s appearance. Leave it as it is.
-
-Nothing in your configuration changes. This beta opens the same configuration as 2.2.3 beta 6.
+Nothing in your configuration changes. This beta opens the same configuration as 2.2.3 beta 7.
 
 This is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble&apos;s **Check for Updates…** window.</description>
-      <sparkle:version>2.2.3b7</sparkle:version>
-      <sparkle:shortVersionString>2.2.3-beta.7</sparkle:shortVersionString>
+      <sparkle:version>2.2.3b8</sparkle:version>
+      <sparkle:shortVersionString>2.2.3-beta.8</sparkle:shortVersionString>
       <sparkle:channel>beta</sparkle:channel>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.3-beta.7/Hubble-2.2.3-beta.7.pkg" sparkle:edSignature="3h94cSO1Vnk4+lKQkCMHMQmtPZtp6Nio5f+WieqVX4q0Kup4kvA/MYGXne6atv8CTCD5y3avn8utrq8HkzriBw==" length="204694350" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.3-beta.8/Hubble-2.2.3-beta.8.pkg" sparkle:edSignature="r+gHQAaOyj6VDA7Zg0Z95SiVQgMdZVKsjzD1t4ERuArERry2nuS78AicrA2hrcD4yWj+I4k0aqjbKdso+cqLCg==" length="204706177" sparkle:installationType="package" type="application/octet-stream" />
     </item>
     <item>
       <title>Hubble 2.2.2</title>
