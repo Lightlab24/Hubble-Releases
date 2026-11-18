@@ -6,24 +6,29 @@
     <description>Stable and beta Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.2.3-beta.8</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.3-beta.8</link>
-      <pubDate>Tue, 17 Nov 2026 16:32:17 GMT</pubDate>
-      <description># Hubble 2.2.3 beta 8
+      <title>Hubble 2.2.3-beta.9</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.3-beta.9</link>
+      <pubDate>Wed, 18 Nov 2026 17:01:58 GMT</pubDate>
+      <description># Hubble 2.2.3 beta 9
 
-- **Beta modules are marked Beta in the sidebar.** A module page running a beta version from the module catalog now shows the same **Beta** label as TALLY Switch, and the label goes once the module runs a stable version. Modules you built or imported yourself aren&apos;t marked.
-- **New on the module beta channel: Flanders.** Press keys on Flanders Scientific monitors from Hubble buttons. Add it from **Module Connections** → **Add module** → **Flanders** after **Check for module updates**. Its **Flanders** page lists your monitors, and each Button Matrix row picks a monitor and a key (inputs, F1 to F5, the menu keys and volume). Before each key Hubble checks this Mac for other apps connected to that monitor, such as LiveGrade, and holds the key back rather than risk disconnecting them. Flanders also works on earlier Hubble versions from 2.2.0; only the Beta label needs this one.
-- **Companion setup works on early Companion 5.0 builds.** Companion 5.0 development builds from before July 2, 2026 stopped Hubble&apos;s connection setup and Button layout with an error about `watchEdit`. Hubble now uses the call those builds understand.
-- **A slider in a sheet cell keeps its length while you drag.** The number beside it no longer changes the track&apos;s length as it grows or shrinks, so the handle stays under the pointer. FS-HDR&apos;s Framing sliders were the most affected.
+- **A darker look with clearer layers.** The sheet is now the blackest part of the window, the sidebar sits a step above it and the bars a step above that, with softer lines between them. The Button Matrix grid and the settings screens use the same values.
+- **Status stays in a fixed place.** The workbook status is a pill in a corner that keeps its width, and the Module Connections status is a pill too. The **Delete** button in the Button Matrix toolbar moved after **Action**, behind a divider, and turns red only when the pointer is on it.
+- **Module Connections is tidier.** Settings sit in one column with **Save changes** under the fields, and the module list shows its count beside the heading. Checking for module updates no longer shifts the bar&apos;s buttons.
+- **Buttons keep their label and width while they work.** A thin line runs along the bottom edge of a busy button, so nothing beside it moves.
+- **One wording.** Modules are removed with **Remove module**, empty lists read &quot;No … yet&quot; or &quot;No … match your search&quot;, and button labels use sentence case, such as **Save changes** and **Add action column**. The setup guide and the user guide follow.
+- **Dropdown lists share one set of rules.** The tick is on the right, rows are the same height, and the search box appears only for long lists or once you start typing.
+- **Hover hints are Hubble&apos;s own.** A control&apos;s hint now appears in Hubble&apos;s look in place of the system tooltip.
+- **One keyboard focus outline, three control heights and one corner radius** across toolbars, lists and dialogs.
+- **For module authors: module pages can take Hubble&apos;s look by name.** Hubble serves a stylesheet of its colours, lines and dropdown rules to module pages (`module-theme-v1`). A module that uses it follows Hubble&apos;s look by itself and still looks as before on an older Hubble. The module-author skill has a new theme guide and a naming guide. Module updates that use it arrive separately through the module catalog.
 
-Nothing in your configuration changes. This beta opens the same configuration as 2.2.3 beta 7.
+Nothing in your configuration changes. This beta opens the same configuration as 2.2.3 beta 8.
 
 This is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble&apos;s **Check for Updates…** window.</description>
-      <sparkle:version>2.2.3b8</sparkle:version>
-      <sparkle:shortVersionString>2.2.3-beta.8</sparkle:shortVersionString>
+      <sparkle:version>2.2.3b9</sparkle:version>
+      <sparkle:shortVersionString>2.2.3-beta.9</sparkle:shortVersionString>
       <sparkle:channel>beta</sparkle:channel>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.3-beta.8/Hubble-2.2.3-beta.8.pkg" sparkle:edSignature="r+gHQAaOyj6VDA7Zg0Z95SiVQgMdZVKsjzD1t4ERuArERry2nuS78AicrA2hrcD4yWj+I4k0aqjbKdso+cqLCg==" length="204706177" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.3-beta.9/Hubble-2.2.3-beta.9.pkg" sparkle:edSignature="A8r3Iq6LIDC8hoJziZ7U84Kku0zRdtClKWALzUyBcyBOFyLbxT57BqYLa42EugQINKbCIWJIYJE37ZslVog/Ag==" length="204709833" sparkle:installationType="package" type="application/octet-stream" />
     </item>
     <item>
       <title>Hubble 2.2.2</title>
