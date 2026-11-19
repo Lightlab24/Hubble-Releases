@@ -2,50 +2,34 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Hubble Updates</title>
-    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.2</link>
-    <description>Stable and beta Hubble updates</description>
+    <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.3.0</link>
+    <description>Stable Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.2.3-beta.9</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.3-beta.9</link>
-      <pubDate>Wed, 18 Nov 2026 17:01:58 GMT</pubDate>
-      <description># Hubble 2.2.3 beta 9
+      <title>Hubble 2.3.0</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.3.0</link>
+      <pubDate>Thu, 19 Nov 2026 21:49:53 GMT</pubDate>
+      <description># Hubble 2.3.0
 
-- **A darker look with clearer layers.** The sheet is now the blackest part of the window, the sidebar sits a step above it and the bars a step above that, with softer lines between them. The Button Matrix grid and the settings screens use the same values.
-- **Status stays in a fixed place.** The workbook status is a pill in a corner that keeps its width, and the Module Connections status is a pill too. The **Delete** button in the Button Matrix toolbar moved after **Action**, behind a divider, and turns red only when the pointer is on it.
-- **Module Connections is tidier.** Settings sit in one column with **Save changes** under the fields, and the module list shows its count beside the heading. Checking for module updates no longer shifts the bar&apos;s buttons.
-- **Buttons keep their label and width while they work.** A thin line runs along the bottom edge of a busy button, so nothing beside it moves.
-- **One wording.** Modules are removed with **Remove module**, empty lists read &quot;No … yet&quot; or &quot;No … match your search&quot;, and button labels use sentence case, such as **Save changes** and **Add action column**. The setup guide and the user guide follow.
-- **Dropdown lists share one set of rules.** The tick is on the right, rows are the same height, and the search box appears only for long lists or once you start typing.
-- **Hover hints are Hubble&apos;s own.** A control&apos;s hint now appears in Hubble&apos;s look in place of the system tooltip.
-- **One keyboard focus outline, three control heights and one corner radius** across toolbars, lists and dialogs.
-- **For module authors: module pages can take Hubble&apos;s look by name.** Hubble serves a stylesheet of its colours, lines and dropdown rules to module pages (`module-theme-v1`). A module that uses it follows Hubble&apos;s look by itself and still looks as before on an older Hubble. The module-author skill has a new theme guide and a naming guide. Module updates that use it arrive separately through the module catalog.
+- **Key colours come on sooner on the Stream Deck.** A key&apos;s new colour no longer waits behind every other Hubble key in Companion, or behind a router&apos;s own status messages inside Hubble. With simulated equipment, a router key&apos;s colour arrived about 35 ms sooner, and keys that change together no longer queue behind one another.
+- **Keys look the way they do on the deck.** The Live Key, the header key, the colour picker, **Show Key Look** and Hubble&apos;s own Stream Deck faces now fill the whole key with its Background Color and draw the text in its own colour, as Companion does. Every key has the same soft shading wherever it&apos;s drawn, and a **Gradient** switch in the key colour popup turns it off for a key that should be one flat colour.
+- **Wide key faces on a Stream Deck Studio.** On Companion 5, Hubble draws each key face in the shape of the device chosen for its page in **Button layout**, so a Studio&apos;s wider keys are filled from edge to edge and other decks stay sharp. Button layout shows a Studio page with wide keys too.
+- **Works with Companion 5.1.** Removing, moving and copying buttons in **Button layout** work on Companion 5.1, and keys Hubble places there can be edited. The disc that fills while a long-press key is held is set up on Companion 5, editing a long-press key&apos;s Button ID saves, and connection setup works on early Companion 5.0 builds.
+- **A darker look with clearer layers.** The sheet is the blackest part of the window, with the sidebar and the bars each a step above it. Status sits in fixed pills, buttons keep their label and width while they work, dropdown lists share one set of rules, hover hints are Hubble&apos;s own, and wording is the same everywhere, such as **Remove module** and **Save changes**.
+- **The Button layout editor shows what the Button Matrix shows.** Selecting a button lists only the cells filled in on that button&apos;s row, named by their Button Matrix columns. **Feedbacks** lists a module&apos;s triggers, and the editor&apos;s colours open the Button Matrix colour popup with **Outline color** and **Bar color**.
+- **Easier formulas.** F4 or ⌃L locks the reference at the caret, stepping through `$A$1`, `A$1`, `$A1` and `A1`, and **Off**, **Row**, **Column** and **Both** buttons beside the Cell source bar do the same with a click. ⌃E edits the selected cell in place, like F2. `=` on a module choice cell gives the name it shows, and typing in a choice cell keeps what you typed.
+- **CCC is gone from your workspaces.** CCC was retired in 2.1.0 and its saved data stayed behind. The first time this version opens your configuration it removes that data from every workspace: CCC&apos;s **Retired** columns with the values in them, CCC actions and feedbacks on Advanced buttons, the saved camera list, and CCC&apos;s entry among your modules. Everything else stays as it was, and nothing changes in what your buttons do. Older files still import, without their CCC columns.
+- **Modules.** A module can show a wide logo beside its name in the sidebar, and a module running a beta version is marked **Beta**. Updating a module yourself clears its waiting automatic update. An open module page no longer keeps Hubble busy: HubDash now receives only what changed, and changes still show as soon as they did.
+- **Fixes.** Formulas keep pointing at the same cells when a module&apos;s action column is deleted, added or moved. A formula typed after F2 in a text cell saves as a formula. A slider in a sheet cell keeps its length while you drag. Updating the Hubble module in Companion no longer stops keys with long presses from syncing.
+- **For module authors.** Module pages can take Hubble&apos;s look by name (`module-theme-v1`). A module can ask for values in a HubDash dialog from a key press and refresh it while it is open (`module-prompt-v1`, `module-prompt-update-v1`). Feedback triggers can be grouped (`module-feedback-trigger-groups-v1`), and a matrix can declare up to 64 triggers (`module-feedback-triggers-64-v1`).
 
-Nothing in your configuration changes. This beta opens the same configuration as 2.2.3 beta 8.
+This release includes version **0.3.8** of the Hubble module for Companion. To get the wide Studio faces and the faster key colours, choose **Install / Reinstall** in **Module Connections** or **Button layout**, or **Update in Companion** in Hubble → **Service Settings…**.
 
-This is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble&apos;s **Check for Updates…** window.</description>
-      <sparkle:version>2.2.3b9</sparkle:version>
-      <sparkle:shortVersionString>2.2.3-beta.9</sparkle:shortVersionString>
-      <sparkle:channel>beta</sparkle:channel>
+**This update changes your configuration in a way older versions can&apos;t open,** including 2.2.2. It removes CCC&apos;s saved data and adds the per-key Gradient setting. Export your configuration first if you might go back. Files exported from older versions still import.</description>
+      <sparkle:version>2.3.0</sparkle:version>
+      <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.3-beta.9/Hubble-2.2.3-beta.9.pkg" sparkle:edSignature="A8r3Iq6LIDC8hoJziZ7U84Kku0zRdtClKWALzUyBcyBOFyLbxT57BqYLa42EugQINKbCIWJIYJE37ZslVog/Ag==" length="204709833" sparkle:installationType="package" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>Hubble 2.2.2</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.2.2</link>
-      <pubDate>Sun, 15 Nov 2026 01:06:39 GMT</pubDate>
-      <description># Hubble 2.2.2
-
-- **One look for every on/off setting.** True/false cells in the Button Matrix, module page tables and module sheets, and every checkbox in settings and dialogs, now show the guided setup checklist&apos;s mark: a green circle with a white tick when on and an empty ring when off. Every on/off switch now looks like the Module Connections switch, with On or Off under it. The ticks in column menus are unchanged.
-- **Enter moves down on every Button Matrix cell.** Action cells, router SRC and DST, Text Size and other list cells now move to the cell below on Enter, like other spreadsheets. Typing, Option, a double-click or the cell&apos;s arrow still opens the list, and Enter in an open list still picks the highlighted choice. Module spreadsheets are unchanged.
-- **Module updates on the Module Connections page.** A Module updates group at the start of the Companion plugin bar sets the automatic-update default that modules follow unless they have their own choice, shows when the catalog was last read, and has Check for module updates. A module&apos;s Updates tab keeps its own version controls. The Data access tabs are gone: Allow access to other modules&apos; data is now the last section of Settings, and every module can read the Button Matrix&apos;s shared columns without a grant.
-- **A clearer Import workspace dialog.** It has three mode tabs, one card per workspace with its modules folded away, a From the file or Copy current choice for each module, and a footer that says what will happen or what still needs a choice. Spreadsheet only lists the modules the buttons use.
-- **Easier keyboard use.** Ctrl+Tab and Ctrl+Shift+Tab move between the sidebar, toolbar, grid, sheet tabs, Advanced action panel and Variables. The Columns menu steps one column per arrow key, and Option-Up or Option-Down moves the highlighted column. Add Action Column starts in its first field and returns to the grid when closed. Connection fields and Advanced text areas show a focus ring, and Tab no longer lands on the closed sidebar.
-- **Smaller fixes.** The Collapsed fields submenu stays open while you tick several fields. Fill Module Connection Down is gone from the action column menu. HubDash no longer redraws for every log line, small buttons are easier to hit, and the window no longer flashes two shades at launch.</description>
-      <sparkle:version>2.2.2</sparkle:version>
-      <sparkle:shortVersionString>2.2.2</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.2.2/Hubble-2.2.2.pkg" sparkle:edSignature="ghJDoeDf2/B3xz+Q93wNUQqTngOH64byd/RRa/kz0oE78kKidiabRoOAvxPoWjJFmUSImCZwaNlEjfPCmJHCAg==" length="204603727" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.3.0/Hubble-2.3.0.pkg" sparkle:edSignature="47f4XE/5+h+ffNoRu1NMFS2gMHH2H/4BhfbGEUXzSxCIrBLe5fzTXSS+5Ie2UriiF8kcdkHaq265QYgLYFH6DA==" length="204793376" sparkle:installationType="package" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
