@@ -6,27 +6,24 @@
     <description>Stable and beta Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.3.1-beta.2</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.3.1-beta.2</link>
-      <pubDate>Sat, 21 Nov 2026 22:29:50 GMT</pubDate>
-      <description># Hubble 2.3.1 beta 2
+      <title>Hubble 2.3.1-beta.3</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.3.1-beta.3</link>
+      <pubDate>Mon, 23 Nov 2026 04:48:23 GMT</pubDate>
+      <description># Hubble 2.3.1 beta 3
 
-- **HubDash and browsers on other computers can connect.** With **Allow connections from other computers** on in Hubble → **Service Settings…** → **Connection**, HubDash or a browser on another computer now opens this Hubble at `http://&lt;this computer&apos;s address&gt;:42838`. Before, Hubble hung up on every such connection. Address it by IP address, by its `.local` name or by its plain computer name. To use any other name, such as one from your facility&apos;s DNS, also turn on **Require a password**. In HubDash, the **Hubble port** for another computer is its Hubble port (42838 unless changed), not the Service port Companion uses (42837).
-- **TALLY Switch is now TSL Tally&apos;s Routing tab.** TALLY Switch and the older built-in TALLY Switch page are retired. The first time this version opens your configuration, each workspace&apos;s camera mappings move to the **Routing** tab of the TSL Tally they read tally from, and the Status Log lists what moved. The **TALLY Switch — Follow**, **Unfollow** and **Toggle** actions keep working and now turn TSL Tally&apos;s own **Follow tally** on and off. Older exported files import the same way.
-- **Highlight on device.** A **Highlight** switch in the Button Matrix header lights the key of the button you&apos;re editing on every deck that shows it, so you can find it. The square beside it picks the colour and whether the key blinks or fades, and how fast.
-- **Simulated connections say so.** A module running a stand-in device instead of real equipment, such as a router or Cyanview set to Simulated, reads **Simulated** in violet in Module Connections, so it can&apos;t pass for real gear.
-- **LightEncode comes from the module catalog.** Hubble no longer bundles the LightEncode module. **Add module** downloads it from the catalog. Macs that already use LightEncode keep it.
-- **HubDash hides with ⌘H.** HubDash&apos;s application menu now has **Hide HubDash** (⌘H), **Hide Others** (⌥⌘H) and **Show All**, like every Mac app.
-- **Modules.** A module page can save its own module&apos;s settings, stay open while its module restarts, and show a count on its sidebar tab. The settings form in Module Connections now follows values saved elsewhere while it is open.
-
-**This update changes your configuration in a way older versions can&apos;t open,** including 2.3.0. It moves TALLY Switch&apos;s camera mappings into TSL Tally. Export your configuration first if you might go back. Files exported from older versions still import.
+- **Columns lists every column, and says where each one is.** **Columns**, above the Button Matrix, now lists every column in sections: **Button definition**, each action and **Result**, including the columns a collapsed section tucks away. Beside each column, **Showing**, **Collapsed** or **Hidden** says where it is now, and the buttons at the top list only those.
+- **Two checkmarks per column.** **Show** hides a column until you tick it again; collapsing never changes it. **When collapsed** keeps a column on screen while its section is collapsed. Each section&apos;s row ticks or unticks all of its columns at once, shows a dash when only some are ticked, and has **Expanded** / **Collapsed** to collapse it on the sheet. The checkmarks are the same green ones as the Button Matrix&apos;s on/off cells.
+- **Fold the list, not the sheet.** The arrow beside a section folds its list in Columns, and **Fold all** / **Unfold all** folds or opens every section&apos;s list at once. The sheet doesn&apos;t change. Search still finds columns in folded sections.
+- **Button definition and Result collapse too.** The **−** / **+** on their bands collapses them like an action. Button ID always stays; the rest follow their **When collapsed** checkmarks. Both are saved with the workspace view and travel with exports.
+- **Shown when collapsed on a column heading.** Right-click a column heading to choose whether it stays when its section collapses. The action header&apos;s **Collapsed fields** submenu is gone.
+- **Module pages get the same Columns.** Modules that use Hubble&apos;s shared Columns editor show the same sections and checkmarks. FS-HDR 2.1.7 and Camera Control 0.1.37 use them, and FS-HDR adds a **Search columns** box in its header.
 
 This is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble&apos;s **Check for Updates…** window.</description>
-      <sparkle:version>2.3.1b2</sparkle:version>
-      <sparkle:shortVersionString>2.3.1-beta.2</sparkle:shortVersionString>
+      <sparkle:version>2.3.1b3</sparkle:version>
+      <sparkle:shortVersionString>2.3.1-beta.3</sparkle:shortVersionString>
       <sparkle:channel>beta</sparkle:channel>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.3.1-beta.2/Hubble-2.3.1-beta.2.pkg" sparkle:edSignature="/U0ykqz/TV5c7iDPAeQxR/5XeKm3k1H2GR1rWA42OI9r1AayrDH64smhNkbE/U72+foP6DHvkUstdrW5xy/cBQ==" length="204951400" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.3.1-beta.3/Hubble-2.3.1-beta.3.pkg" sparkle:edSignature="UDQLk2lpFXh2hdAebF10k/dpAMN/2u4kMobTy50AkvZy/yRb1N+V/g7BexCU65rZ6aO80uF9HZnrtfv1PovDAg==" length="204962357" sparkle:installationType="package" type="application/octet-stream" />
     </item>
     <item>
       <title>Hubble 2.3.0</title>
