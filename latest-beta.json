@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "beta",
-  "version": "2.3.1-beta.4",
-  "publishedAt": "2026-11-24T05:21:58.000Z",
+  "version": "2.3.1-beta.5",
+  "publishedAt": "2026-11-24T09:29:44.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.3.1-beta.4/Hubble-2.3.1-beta.4.pkg",
-    "sha256": "4e65e70efd5ebbfbe8891154f25fc27c4b508d3a1f754b311cdb545bebddae65",
-    "size": 204972747
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.3.1-beta.5/Hubble-2.3.1-beta.5.pkg",
+    "sha256": "8c5a57947faefb4990f78d714e08517076aa7c7518209f81c2cde8c534335674",
+    "size": 204973767
   },
-  "releaseNotes": "# Hubble 2.3.1 beta 4\n\n- **Three fill handles on every grid.** A selection now has three small handles along its bottom edge instead of one: **−** on the left, **C** in the middle and **+** on the right. Drag **+** to count up, **−** to count down and **C** to copy, whichever way you drag. The Button Matrix, module tables and module sheets all have them.\n- **The handle decides, not the column.** Select two or more cells to set the step: `1, 3` continues `5, 7` with **+** and `−1, −3` with **−**. A number inside text stops at 0 and letters stop at A, so `CAM 1` counts down to `CAM 0` and stays there. Formulas shift their references under all three handles.\n- **Checkboxes, colours and choice lists copy.** Values that can't count repeat under every handle. An action's **Enabled** checkbox no longer turns into 2, 3, 4 when you fill it down.\n- **Handles shrink as you zoom out.** They are 11 pixels at normal zoom and get smaller as the sheet zooms out, down to 8, and are drawn on whole screen pixels so they stay sharp on any display.\n- **A click on a handle does nothing.** Only a drag fills.\n\nThis is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble's **Check for Updates…** window."
+  "releaseNotes": "# Hubble 2.3.1 beta 5\n\n- **Two computers no longer need the same version.** HubDash on one computer opens the Hubble on another even when they run different versions, so one can update before the other. Before, HubDash showed **Hubble and HubDash need the same update** until both matched. The computer running HubDash needs this update.\n- **Module pages work from another computer.** A Hubble opened from another computer, in HubDash or a browser, now shows every module page, such as a router's names, and lets you change module settings there. Before, those pages came up empty. The computer running Hubble needs this update.\n- **Module installs stay on the Hubble computer.** Installing, updating and switching module versions is still done on the computer running Hubble, along with anything that uses a folder there.\n\nThis is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble's **Check for Updates…** window."
 }

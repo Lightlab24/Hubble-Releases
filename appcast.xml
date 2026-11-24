@@ -6,23 +6,21 @@
     <description>Stable and beta Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.3.1-beta.4</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.3.1-beta.4</link>
-      <pubDate>Tue, 24 Nov 2026 05:21:58 GMT</pubDate>
-      <description># Hubble 2.3.1 beta 4
+      <title>Hubble 2.3.1-beta.5</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.3.1-beta.5</link>
+      <pubDate>Tue, 24 Nov 2026 09:29:44 GMT</pubDate>
+      <description># Hubble 2.3.1 beta 5
 
-- **Three fill handles on every grid.** A selection now has three small handles along its bottom edge instead of one: **−** on the left, **C** in the middle and **+** on the right. Drag **+** to count up, **−** to count down and **C** to copy, whichever way you drag. The Button Matrix, module tables and module sheets all have them.
-- **The handle decides, not the column.** Select two or more cells to set the step: `1, 3` continues `5, 7` with **+** and `−1, −3` with **−**. A number inside text stops at 0 and letters stop at A, so `CAM 1` counts down to `CAM 0` and stays there. Formulas shift their references under all three handles.
-- **Checkboxes, colours and choice lists copy.** Values that can&apos;t count repeat under every handle. An action&apos;s **Enabled** checkbox no longer turns into 2, 3, 4 when you fill it down.
-- **Handles shrink as you zoom out.** They are 11 pixels at normal zoom and get smaller as the sheet zooms out, down to 8, and are drawn on whole screen pixels so they stay sharp on any display.
-- **A click on a handle does nothing.** Only a drag fills.
+- **Two computers no longer need the same version.** HubDash on one computer opens the Hubble on another even when they run different versions, so one can update before the other. Before, HubDash showed **Hubble and HubDash need the same update** until both matched. The computer running HubDash needs this update.
+- **Module pages work from another computer.** A Hubble opened from another computer, in HubDash or a browser, now shows every module page, such as a router&apos;s names, and lets you change module settings there. Before, those pages came up empty. The computer running Hubble needs this update.
+- **Module installs stay on the Hubble computer.** Installing, updating and switching module versions is still done on the computer running Hubble, along with anything that uses a folder there.
 
 This is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble&apos;s **Check for Updates…** window.</description>
-      <sparkle:version>2.3.1b4</sparkle:version>
-      <sparkle:shortVersionString>2.3.1-beta.4</sparkle:shortVersionString>
+      <sparkle:version>2.3.1b5</sparkle:version>
+      <sparkle:shortVersionString>2.3.1-beta.5</sparkle:shortVersionString>
       <sparkle:channel>beta</sparkle:channel>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.3.1-beta.4/Hubble-2.3.1-beta.4.pkg" sparkle:edSignature="ZveWhAtBDE4bYZOA0D030avrR/D/TerzmnO5ap7Cfp8YK1iQzA16E1jrKnmJjaHpC1+KOBnAPr/+62sDcU6rBA==" length="204972747" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.3.1-beta.5/Hubble-2.3.1-beta.5.pkg" sparkle:edSignature="rA+urMDBRbtBclvCiM4fFNbggARh0jwuWWdjLtxw3q2YeJDoCgEdwdPmGKvIVf2fjxOfGBIStZspFjsN/B+cBA==" length="204973767" sparkle:installationType="package" type="application/octet-stream" />
     </item>
     <item>
       <title>Hubble 2.3.0</title>
