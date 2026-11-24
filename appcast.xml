@@ -6,20 +6,29 @@
     <description>Stable and beta Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.3.1-beta.6</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.3.1-beta.6</link>
-      <pubDate>Tue, 24 Nov 2026 15:48:51 GMT</pubDate>
-      <description># Hubble 2.3.1 beta 6
+      <title>Hubble 2.3.1-beta.7</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.3.1-beta.7</link>
+      <pubDate>Tue, 24 Nov 2026 19:37:26 GMT</pubDate>
+      <description># Hubble 2.3.1 beta 7
 
-- **Colour a module from the sidebar.** Right-click a module in the sidebar, with the sidebar open or collapsed, and pick its colour at the bottom of the menu. You get the same swatches, custom colour and hex field as in Module Connections. It is one colour per module, so it tints the module&apos;s rows in the sidebar and in Module Connections at once, and every page of a module with several. Icons are still changed in Module Connections. Colours stay on this Mac and don&apos;t travel with a workspace.
-- **A typed colour is kept.** Typing a hex colour and closing the menu without pressing Return now keeps that colour, in the sidebar and in Module Connections.
+- **+ works on every selection.** Dragging the + fill handle did nothing when the selection held a read-only cell, such as Connection, Status or Button Type, while − and C on the same selection worked. All three now behave alike.
+- **Fill a whole row in one drag.** A drag down across different kinds of column, from Button ID through an action, used to be refused. Each column is now filled on its own: text and numbers count, checkboxes, colours and lists copy, and read-only columns are passed over.
+- **Rows with another action no longer block a drag.** Filling Camera or SRC / DST down a column used to be refused if any row in the way used an action without that field. Those rows now take the value too, and it waits there until their action uses it. Starting a drag on a field its row doesn&apos;t use says which Action enables it.
+- **A router Action brings its routing group.** Filling an Action down left each row on the group it already had. The group now follows, as it does with copy and paste.
+- **Counting is the same in every grid,** in the Button Matrix, module tables and module sheets:
+  - A number inside text stops at 0 whatever follows it: `Wide 2 Left` no longer becomes `Wide -1 Left`.
+  - An address counts as a whole and keeps its port: `10.0.0.255` goes to `10.0.1.0`, and `10.0.0.5:80` to `10.0.0.6:80`.
+  - A decimal counts in ones: `1.5`, `2.5`, `3.5`.
+  - A number stops at the smallest and largest value its column takes, so a source never counts down to 0.
+  - One letter counts wherever it stands alone: `A CAM` gives `B CAM`. Short words such as `Bur`, `cmd` and `off` are copied instead of being changed.
+- **Names over IDs copy.** A cell that shows a module&apos;s name for a stored ID, such as a Cyanview controller, copies under every handle.
 
 This is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble&apos;s **Check for Updates…** window.</description>
-      <sparkle:version>2.3.1b6</sparkle:version>
-      <sparkle:shortVersionString>2.3.1-beta.6</sparkle:shortVersionString>
+      <sparkle:version>2.3.1b7</sparkle:version>
+      <sparkle:shortVersionString>2.3.1-beta.7</sparkle:shortVersionString>
       <sparkle:channel>beta</sparkle:channel>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.3.1-beta.6/Hubble-2.3.1-beta.6.pkg" sparkle:edSignature="EAQZTw0ABlxVJgspWdBVn2AnwYMoyL+WJOm9q9Ucrspmc8q/hfIKhRTlOwes3HksbtFJd4Fflu3NpQ1hPnDtCw==" length="204976241" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.3.1-beta.7/Hubble-2.3.1-beta.7.pkg" sparkle:edSignature="U7zzp9ScqtIFHbfY5diwl1qLHRktbdrdW+A6GgHNiFtITOxRAR4/MvoTJoV9P6RqPy/nOUHSivNdEWDTvRcZCw==" length="204983734" sparkle:installationType="package" type="application/octet-stream" />
     </item>
     <item>
       <title>Hubble 2.3.0</title>
