@@ -2,12 +2,12 @@
   "formatVersion": 1,
   "product": "hubble",
   "channel": "beta",
-  "version": "2.3.1-beta.5",
-  "publishedAt": "2026-11-24T09:29:44.000Z",
+  "version": "2.3.1-beta.6",
+  "publishedAt": "2026-11-24T15:48:51.000Z",
   "archive": {
-    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.3.1-beta.5/Hubble-2.3.1-beta.5.pkg",
-    "sha256": "8c5a57947faefb4990f78d714e08517076aa7c7518209f81c2cde8c534335674",
-    "size": 204973767
+    "url": "https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.3.1-beta.6/Hubble-2.3.1-beta.6.pkg",
+    "sha256": "16795bc4d9461d28642d24b2de1a7153ac89fcfd990402ccbc959fe7312278ae",
+    "size": 204976241
   },
-  "releaseNotes": "# Hubble 2.3.1 beta 5\n\n- **Two computers no longer need the same version.** HubDash on one computer opens the Hubble on another even when they run different versions, so one can update before the other. Before, HubDash showed **Hubble and HubDash need the same update** until both matched. The computer running HubDash needs this update.\n- **Module pages work from another computer.** A Hubble opened from another computer, in HubDash or a browser, now shows every module page, such as a router's names, and lets you change module settings there. Before, those pages came up empty. The computer running Hubble needs this update.\n- **Module installs stay on the Hubble computer.** Installing, updating and switching module versions is still done on the computer running Hubble, along with anything that uses a folder there.\n\nThis is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble's **Check for Updates…** window."
+  "releaseNotes": "# Hubble 2.3.1 beta 6\n\n- **Colour a module from the sidebar.** Right-click a module in the sidebar, with the sidebar open or collapsed, and pick its colour at the bottom of the menu. You get the same swatches, custom colour and hex field as in Module Connections. It is one colour per module, so it tints the module's rows in the sidebar and in Module Connections at once, and every page of a module with several. Icons are still changed in Module Connections. Colours stay on this Mac and don't travel with a workspace.\n- **A typed colour is kept.** Typing a hex colour and closing the menu without pressing Return now keeps that colour, in the sidebar and in Module Connections.\n\nThis is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble's **Check for Updates…** window."
 }

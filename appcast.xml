@@ -6,21 +6,20 @@
     <description>Stable and beta Hubble updates</description>
     <language>en</language>
     <item>
-      <title>Hubble 2.3.1-beta.5</title>
-      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.3.1-beta.5</link>
-      <pubDate>Tue, 24 Nov 2026 09:29:44 GMT</pubDate>
-      <description># Hubble 2.3.1 beta 5
+      <title>Hubble 2.3.1-beta.6</title>
+      <link>https://github.com/Lightlab24/Hubble-Releases/releases/tag/v2.3.1-beta.6</link>
+      <pubDate>Tue, 24 Nov 2026 15:48:51 GMT</pubDate>
+      <description># Hubble 2.3.1 beta 6
 
-- **Two computers no longer need the same version.** HubDash on one computer opens the Hubble on another even when they run different versions, so one can update before the other. Before, HubDash showed **Hubble and HubDash need the same update** until both matched. The computer running HubDash needs this update.
-- **Module pages work from another computer.** A Hubble opened from another computer, in HubDash or a browser, now shows every module page, such as a router&apos;s names, and lets you change module settings there. Before, those pages came up empty. The computer running Hubble needs this update.
-- **Module installs stay on the Hubble computer.** Installing, updating and switching module versions is still done on the computer running Hubble, along with anything that uses a folder there.
+- **Colour a module from the sidebar.** Right-click a module in the sidebar, with the sidebar open or collapsed, and pick its colour at the bottom of the menu. You get the same swatches, custom colour and hex field as in Module Connections. It is one colour per module, so it tints the module&apos;s rows in the sidebar and in Module Connections at once, and every page of a module with several. Icons are still changed in Module Connections. Colours stay on this Mac and don&apos;t travel with a workspace.
+- **A typed colour is kept.** Typing a hex colour and closing the menu without pressing Return now keeps that colour, in the sidebar and in Module Connections.
 
 This is a beta. It reaches Macs that have turned on **Get beta updates** in Hubble&apos;s **Check for Updates…** window.</description>
-      <sparkle:version>2.3.1b5</sparkle:version>
-      <sparkle:shortVersionString>2.3.1-beta.5</sparkle:shortVersionString>
+      <sparkle:version>2.3.1b6</sparkle:version>
+      <sparkle:shortVersionString>2.3.1-beta.6</sparkle:shortVersionString>
       <sparkle:channel>beta</sparkle:channel>
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.3.1-beta.5/Hubble-2.3.1-beta.5.pkg" sparkle:edSignature="rA+urMDBRbtBclvCiM4fFNbggARh0jwuWWdjLtxw3q2YeJDoCgEdwdPmGKvIVf2fjxOfGBIStZspFjsN/B+cBA==" length="204973767" sparkle:installationType="package" type="application/octet-stream" />
+      <enclosure url="https://github.com/Lightlab24/Hubble-Releases/releases/download/v2.3.1-beta.6/Hubble-2.3.1-beta.6.pkg" sparkle:edSignature="EAQZTw0ABlxVJgspWdBVn2AnwYMoyL+WJOm9q9Ucrspmc8q/hfIKhRTlOwes3HksbtFJd4Fflu3NpQ1hPnDtCw==" length="204976241" sparkle:installationType="package" type="application/octet-stream" />
     </item>
     <item>
       <title>Hubble 2.3.0</title>
